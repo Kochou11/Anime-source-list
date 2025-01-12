@@ -217,7 +217,7 @@ transform: scale(0.95);
         .card-description {
             color: var(--text-secondary);
             font-size: 0.860rem;
-            line-height: 1.5;
+            line-height: 1.2;
         }
 
         .card-tags {
