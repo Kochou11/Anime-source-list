@@ -304,6 +304,13 @@ let activeSection = 'streaming';
         link: "https://mangaplus.shueisha.co.jp",
         image: "https://mangaplus.shueisha.co.jp/img/app_icon.919a13c7.png"
       },
+      {
+        name: "ComicK",
+        desc: "Huge library with diverse languages, advanced manga info, detailed filters, and minimal image compression with a modern and practical UI. NSFW requires login.",
+        tags: ["Multiple Languages", "Good UI"],
+        url: "https://comick.io/home2",
+        image: "https://comick.io/_next/image?url=%2Fstatic%2Ficons%2Funicorn-64-christmas.png&w=144&q=75"
+      }
                 ],
                 //manga apps resources 
                 apps: [
