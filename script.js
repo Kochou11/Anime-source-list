@@ -1,3 +1,6 @@
+let nsfwVerified = false;
+let activeTab = 'anime'; 
+let activeSection = 'streaming'; 
 
         const descriptions = {
             anime: {
@@ -63,35 +66,55 @@
             },
          
          news: {
-  title:  "News resources",
-  desc: "Community platforms for discussing anime, manga, and related topics.",
-  animanga: {
-    title: "Animanga news",
-    desc: "Popular forums and communities for anime discussions."
+        title:  "News resources",
+          desc: "Community platforms for discussing anime, manga, and related topics.",
+      animanga: {
+        title: "Animanga news",
+          desc: "Popular forums and communities for anime discussions."
   }
 },   
-development: {
-  title: "development",
-  desc: "api and packages related to anime",
-  development: {
-    title: "Development resources ", 
-    desc: "API and packages related to anime for metadata and so on"
+     development: {
+       title: "development",
+         desc: "api and packages related to anime",
+        development: {
+           title: "Development resources ", 
+           desc: "API and packages related to anime for metadata and so on"
   }
   
 },
 
-music: {
-  title: "music",
-  desc: "list of music related to anime",
-  music: {
-    title: "Music resources",
-    desc: "List of anime music related sources "
+     music: {
+       title: "music",
+         desc: "list of music related to anime",
+      music: {
+        title: "Music resources",
+        desc: "List of anime music related sources "
   }
+},
+    nsfw: {
+      title: "NSFW Content",
+      desc: "Age-restricted content with appropriate content warnings.",
+     streaming: {
+       title: "Adult Anime and JAV Content resources",
+       desc: "Adult-oriented anime and jav content websites "
+ },
+      reading: {
+        title: "Adult Manga Content",
+        desc: "Age-restricted manga content websites and apps"
+},
+       database: {
+        title: "Adult content tracker and database ",
+        desc: "library of gooning hall"
 }
-        };
+}
 
+
+        };
+//Data for sections
         const data = {
+          //anime Data
             anime: {
+              //streaming resources 
                 streaming: [
                     {
                         name: 'AnimePahe',
@@ -146,6 +169,7 @@ music: {
         image: "https://d9hhrg4mnvzow.cloudfront.net/welcome.hidive.com/a601d032-favicon-64x64.png"
       },
                 ],
+                //downloading resources 
                 downloading: [
                     {
                         name: 'Nyaa',
@@ -156,14 +180,15 @@ music: {
                     },
                     
                 ],
+                //anime apps resources 
                 apps: [
                    {
-  name: 'Aniyomi',
-  url: 'https://github.com/jmir1/aniyomi',
-  desc: 'based  on mihon with anime support for Android.',
-  tags: [ 'Open Source', 'extensions', 'tracker'],
-  image: 'https://aniyomi.org/img/logo-128px.png'
-},
+         name: 'Aniyomi',
+          url: 'https://github.com/jmir1/aniyomi',
+         desc: 'based  on mihon with anime support for Android.',
+         tags: [ 'Open Source', 'extensions', 'tracker'],
+          image: 'https://aniyomi.org/img/logo-128px.png'
+               },
                     {
                         name: 'animiru',
                         url: 'https://github.com/Quickdesh/Animiru',
@@ -188,15 +213,17 @@ music: {
                     
                 ]
             },
+            // listing and database 
             listing: {
+              //Database resources 
                 database: [
                   {
-  name: "NovelUpdates",
-  desc: "Database and community for translated light novels and web novels.",
-  tags: ["Database", "Translations"],
-  url: "https://www.novelupdates.com",
-  image: "https://www.novelupdates.com/favicon.ico"
-},
+         name: "NovelUpdates",
+        desc: "Database and community for translated light novels and web novels.",
+       tags: ["Database", "Translations"],
+       url: "https://www.novelupdates.com",
+       image: "https://www.novelupdates.com/favicon.ico"
+          },
                     {
                         name: 'MyAnimeList',
                         url: 'https://myanimelist.net',
@@ -226,14 +253,15 @@ music: {
         image: "https://www.anime-planet.com/favicon-32x32.png?v=WGowMEAKpM"
       },
       {
-  name: 'Kitsu',
-  url: 'https://kitsu.app/',
-  desc: 'Anime and manga tracking platform with a social component.',
-  tags: ['Tracking', 'Social', 'Database '],
-  image: 'https://kitsu.io/favicon.ico'
+        name: 'Kitsu',
+        url: 'https://kitsu.app/',
+        desc: 'Anime and manga tracking platform with a social component.',
+        tags: ['Tracking', 'Social', 'Database '],
+         image: 'https://kitsu.io/favicon.ico'
 },
 
                 ],
+                // anime schedule resources 
                 schedule: [
                     {
                         name: 'LiveChart',
@@ -258,7 +286,9 @@ music: {
                     }
                 ]
             },
+            // manga data
             manga: {
+              // manga reading resources 
                 reading: [
                     {
                         name: 'Mangadex',
@@ -275,6 +305,7 @@ music: {
         image: "https://mangaplus.shueisha.co.jp/img/app_icon.919a13c7.png"
       },
                 ],
+                //manga apps resources 
                 apps: [
                     {
                         name: 'Mihon',
@@ -285,17 +316,20 @@ music: {
                     }
                 ]
             },
+            // novels data
             novels: {
+              // novels reading resources 
               reading: [
                 
                 {
-  name: "Syosetu",
-  desc: "Japanese web novel platform hosting many original light novels where amateur writers publish their stories as they write them. Many popular officially published books started out on this website. (Note: the site is in Japanese use google translate to navigate and read.)",
-  tags: ["Web-novels", "Japanese", "Original"],
-  link: "https://syosetu.com",
-  image: "https://static.syosetu.com/view/images/narou.ico?psawph"
+          name: "Syosetu",
+           desc: "Japanese web novel platform hosting many original light novels where amateur writers publish their stories as they write them. Many popular officially published books started out on this website. (Note: the site is in Japanese use google translate to navigate and read.)",
+            tags: ["Web-novels", "Japanese", "Original"],
+             link: "https://syosetu.com",
+           image: "https://static.syosetu.com/view/images/narou.ico?psawph"
 },
                 ],
+                // novels apps resources 
                 apps: [
                     {
                         name: 'LNReader',
@@ -306,7 +340,9 @@ music: {
                     }
                 ]
             },
+            // forum data
             forum: {
+              // forums resources 
                 discussion: [
                     {
                         name: 'Reddit r/anime',
@@ -331,8 +367,9 @@ music: {
                     }
                 ]
             },
+            // news data
             news: {
-              
+              // news resources 
             animanga: [
     {
       name: 'Anime News Network',
@@ -350,7 +387,9 @@ music: {
     }
     ]
             },
+            // music data
             music: {
+              // music resources 
               music: [
                 {
                 name: 'Animethemes',
@@ -361,15 +400,16 @@ music: {
                 }
                 ]
             },
+            // development data
             development: {
-              
+              // development resources API and shi
               development: [
               {
-  name: 'AniList API',
-  url: 'https://anilist.gitbook.io/anilist-apiv2-docs/',
-  desc: 'A GraphQL-based API for fetching anime, manga, and user data from AniList.',
-  tags: ['API', 'GraphQL', 'Anime'],
-  image: 'https://anilist.co/img/icons/favicon-32x32.png'
+         name: 'AniList API',
+         url: 'https://anilist.gitbook.io/anilist-apiv2-docs/',
+        desc: 'A GraphQL-based API for fetching anime, manga, and user data from AniList.',
+      tags: ['API', 'GraphQL', 'Anime'],
+       image: 'https://anilist.co/img/icons/favicon-32x32.png'
 },
 {
                 name: 'Consumet API',
@@ -393,42 +433,75 @@ music: {
                 image: 'https://jikan.moe/favicon/favicon-32x32.png?v=2'
             },
             {
-  name: "Kitsu API",
-  desc: "JSON API for the Kitsu anime discovery platform.(kistu.app)",
-  tags: ["API", "JSON", "Kitsu"],
-  url: "https://kitsu.docs.apiary.io",
-  image: 'https://kitsu.io/android-chrome-192x192-6b1404d91a423ea12340f41fc320c149.png'
+         name: "Kitsu API",
+         desc: "JSON API for the Kitsu anime discovery platform.(kistu.app)",
+        tags: ["API", "JSON", "Kitsu"],
+          url: "https://kitsu.docs.apiary.io",
+       image: 'https://kitsu.io/android-chrome-192x192-6b1404d91a423ea12340f41fc320c149.png'
 },
 {
-  name: "AnimechanAPI",
-  desc: "RESTful API serving quality anime quotes. ",
-  tags: ["API", "Rest", "Quotes"],
-  url: "https://animechan.io/",
-  image: 'https://raw.githubusercontent.com/Animechan-API/animechan/main/.github/logo.png'
+        name: "AnimechanAPI",
+        desc: "RESTful API serving quality anime quotes. ",
+       tags: ["API", "Rest", "Quotes"],
+       url: "https://animechan.io/",
+      image: 'https://raw.githubusercontent.com/Animechan-API/animechan/main/.github/logo.png'
 },
 {
-  name: "Animethemes API",
-  desc: "Official API for animethemes.moe. provides data for OP and ED and OST of anime. ",
-  tags: ['Animethemes', 'Official ',  'Music'],
-  url: "https://github.com/AnimeThemes/animethemes-api-docs",
-  image: "https://animethemes.moe/favicon-32x32.png"
+      name: "Animethemes API",
+       desc: "Official API for animethemes.moe. provides data for OP and ED and OST of anime. ",
+      tags: ['Animethemes', 'Official ',  'Music'],
+       url: "https://github.com/AnimeThemes/animethemes-api-docs",
+      image: "https://animethemes.moe/favicon-32x32.png"
 },
 {
-  name: "Trace.moe API",
-  desc: "API for searching anime scenes by image.",
-  tags: ["API", "Image-search", "Scene-recognition"],
-  url: "https://soruly.github.io/trace.moe-api/#/",
-  image: 'https://lh3.googleusercontent.com/ZubuaW1p9VNSkCnFG7wUQzvxgZXP2QTo6tjHSb67emqvi0YtdWckzWPMctWiu_BlxjVNglsASU8p6N9DOoYE58MW=s120'
+         name: "Trace.moe API",
+        desc: "API for searching anime scenes by image.",
+         tags: ["API", "Image-search", "Scene-recognition"],
+        url: "https://soruly.github.io/trace.moe-api/#/",
+         image: 'https://lh3.googleusercontent.com/ZubuaW1p9VNSkCnFG7wUQzvxgZXP2QTo6tjHSb67emqvi0YtdWckzWPMctWiu_BlxjVNglsASU8p6N9DOoYE58MW=s120'
 },
 {
-  name: "Aniwatch API",
-  url: 'https://github.com/ghoshRitesh12/aniwatch-api',
-  desc: "Open srouce and Unofficial API for hianime.to",
-  tags: ['Hianime', 'Open source', 'Rest'],
-  image: 'https://raw.githubusercontent.com/ghoshRitesh12/aniwatch-api/refs/heads/main/public/img/hianime_v2.png'
+          name: "Aniwatch API",
+         url: 'https://github.com/ghoshRitesh12/aniwatch-api',
+        desc: "Open srouce and Unofficial   API for hianime.to",
+       tags: ['Hianime', 'Open source', 'Rest'],
+      image: 'https://raw.githubusercontent.com/ghoshRitesh12/aniwatch-api/refs/heads/main/public/img/hianime_v2.png'
 }
                 ]
-            }
+            },
+            // nsfw data
+            nsfw: {
+              // nsfw streaming resources 
+         streaming: [
+               {
+             name: 'Hanime',
+             url: 'https://hanime.tv',
+           desc: 'Adult anime streaming platform with nice interface, reliable player, large library, and long track record, but 1080p requires premium.',
+            tags: ['Hentai', 'freemium', 'HD'],
+            image: 'https://hanime.tv/favicon.ico'
+}
+],
+      // nsfw reading resources 
+       reading: [
+            {
+           name: 'AsmHentai',
+           url: 'https://asmhentai.com/',
+          desc: 'Adult manga platform with Long track record and Very Large library.',
+          tags: ['Hentai', 'Large library '],
+           image: 'https://asmhentai.com/favicon.ico'
+}
+],
+       // nsfw database resources 
+          database: [
+              {
+          name: "jav library", 
+         url: "https://www.javlibrary.com/en/",
+        desc: "JavLibrary is an online Japanese Adult Video Library. You can search and look up information on Japanese adult videos here. Organize and keep track of what you like by adding it in your favorite list and see the community reviews ",
+        tags: ['JAV', 'Reviews', 'Tracker'],
+        image: "https://www.javlibrary.com/favicon.ico"
+  }
+  ],
+}
             
         };
 
@@ -440,7 +513,8 @@ music: {
             music: ['music'],
             forum: ['discussion'],
             news: ['animanga'],
-            development: ['development']
+            development: ['development'],
+            nsfw: ['streaming', 'reading', 'database']
         };
         
         const icons = {
@@ -452,11 +526,13 @@ music: {
     reading: '<i class="fas fa-book-reader"></i>',
     discussion: '<i class="fas fa-comments"></i>',
     animanga: '<i class="fas fa-newspaper"></i>',
+    music: '<i class="fa-solid fa-headphones"></i>',
+    
+    development: '<i class="fa-solid fa-code"></i>',
 };
 
 
-        let activeTab = 'anime';
-        let activeSection = 'streaming';
+        
 
         function updateSectionDescription() {
             const sectionDesc = document.getElementById('sectionDesc');
@@ -467,6 +543,7 @@ music: {
                 <p>${currentSection.desc}</p>
             `;
         }
+        
 
         function updateSidebar() {
     const sidebar = document.getElementById('sidebar');
@@ -485,6 +562,42 @@ music: {
         });
     });
 }
+      function showAgeVerificationModal() {
+     const modal = document.createElement('div');
+       modal.className = 'modal-overlay';
+       modal.innerHTML = `
+      <div class="modal">
+       <h2 class="modal-title">Age Verification</h2>
+       <div class="modal-content">
+       <p>This section contains adult content.  You must be 18 years or older to view this content.</p>
+        <p>Are you 18 years or older?</p>
+    </div>
+       <div class="modal-buttons">
+         <button class="modal-button cancel-button">No</button>
+       <button class="modal-button confirm-button">Yes, I am 18+</button>
+  </div>
+</div>
+`;
+
+     document.body.appendChild(modal);
+      modal.style.display = 'block';
+
+     const confirmButton = modal.querySelector('.confirm-button');
+    const cancelButton = modal.querySelector('.cancel-button');
+
+       return new Promise((resolve) => {
+      confirmButton.addEventListener('click', () => {
+      nsfwVerified = true;
+        modal.remove();
+         resolve(true);
+     });
+
+     cancelButton.addEventListener('click', () => {
+       modal.remove();
+         resolve(false);
+          });
+      });
+    }
 
                     function updateContent() {
     const grid = document.getElementById('contentGrid');
@@ -517,6 +630,10 @@ music: {
         }
 
         function updateUI() {
+          if (activeTab === 'nsfw' && !nsfwVerified) {
+  activeTab = 'anime';
+  activeSection = sections[activeTab][0];
+}
             updateSectionDescription();
             updateSidebar();
             updateContent();
@@ -527,13 +644,27 @@ music: {
         }
 
         document.querySelectorAll('.tab').forEach(tab => {
-            tab.addEventListener('click', (e) => {
-                activeTab = e.target.closest('.tab').dataset.tab;
-                activeSection = sections[activeTab][0];
-                updateUI();
+      tab.addEventListener('click', async (e) => {
+              const newTab = e.target.closest('.tab').dataset.tab;
+
+              if (newTab === 'nsfw' && !nsfwVerified) {
+                const verified = await showAgeVerificationModal();
+                if (!verified) {
+
+                  updateUI();
+                  return;
+                }
+              }
+              activeTab = newTab;
+activeSection = sections[activeTab][0];
+updateUI();
+    
             });
         });
 
+       document.addEventListener('DOMContentLoaded', () => {
+  activeTab = 'anime';
+  activeSection = 'streaming';
+  updateUI();
+}); 
         
-        updateUI();
-    
