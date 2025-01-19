@@ -3,7 +3,7 @@ const animeData = {
         {
           name: 'AnimePahe',
           url: 'https://animepahe.com/',
-          desc: 'A medium anime library with a simple player, low data use...',
+          desc: 'A medium anime library with a simple player, low data use, easy downloads, but limited dubs, features, no comments, and intrusive ads.',
           tags: ['Free', 'Sub', 'ADs', 'Redirects'],
           image: 'https://i.pinimg.com/280x280_RS/2a/c7/b5/2ac7b5b0b304152ee3cd9231b0af3fe9.jpg'
         },
