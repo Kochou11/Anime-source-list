@@ -1,7 +1,6 @@
-#  NihonNav🎌
+# NihonNav🎌
 
 A curated collection of anime, manga, and related resources - from streaming platforms to development tools. This project aims to provide a comprehensive list of resources for anime and manga enthusiasts.
-
 
 ## 🌟 Features
 
@@ -11,6 +10,7 @@ A curated collection of anime, manga, and related resources - from streaming pla
 - Filter resources by category and type
 - Tags for quick identification of features
 - Animated UI elements for better user experience
+
 
 ## 🗂️ Categories
 
@@ -27,12 +27,41 @@ A curated collection of anime, manga, and related resources - from streaming pla
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/awesome-anime-sources.git
+git clone https://github.com/Kochou11/Anime-source-list.git
 ```
 
 2. Open `index.html` in your browser
 
 No build process is required as this is a static website.
+
+## 📁 Project Structure
+
+```
+project/
+├── index.html
+├── assets/
+│   └── css/
+│       └── style.css
+├── js/
+│   ├── config/
+│   │   ├── descriptions.js
+│   │   ├── sections.js
+│   │   └── icons.js
+│   ├── data/
+│   │   ├── anime.js
+│   │   ├── listing.js
+│   │   ├── manga.js
+│   │   ├── novels.js
+│   │   ├── forum.js
+│   │   ├── news.js
+│   │   ├── music.js
+│   │   ├── development.js
+│   │   └── nsfw.js
+│   ├── utils/
+│   │   └── modal.js
+│   └── main.js
+└── README.md
+```
 
 ## 🤝 Contributing
 
@@ -41,8 +70,8 @@ We welcome contributions! Here's how you can help:
 ### Adding New Sources
 
 1. Fork the repository
-2. Edit `script.js`
-3. Add your source to the appropriate category in the `data` object:
+2. Navigate to the appropriate file in the `js/data` directory
+3. Add your source following this format:
 
 ```javascript
 {
@@ -73,10 +102,11 @@ We welcome contributions! Here's how you can help:
 
 To add a new category:
 
-1. Add the category to the `descriptions` object
-2. Add the category to the `sections` object
-3. Update the HTML to include the new tab
-4. Add appropriate icon in the `icons` object
+1. Create a new file in `js/data` for your category
+2. Add the category configuration to `js/config/descriptions.js`
+3. Add the category sections to `js/config/sections.js`
+4. Add the category icon to `js/config/icons.js`
+5. Update `index.html` to include the new tab
 
 ### Pull Request Process
 
@@ -85,23 +115,6 @@ To add a new category:
 3. Reference any related issues
 4. Submit the pull request
 
-## 🛠️ Development
-
-To modify the project:
-
-- `index.html`: Main structure and layout
-- `style.css`: Styling and animations
-- `script.js`: Data and functionality
-
-### Project Structure
-
-```
-awesome-anime-sources/
-├── index.html
-├── style.css
-├── script.js
-└── README.md
-```
 
 ## 📝 License
 
@@ -118,6 +131,3 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 This project is not affiliated with any of the services listed. All logos and trademarks belong to their respective owners. This is merely a curated list of resources.
 
 ---
-
-
-
