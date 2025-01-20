@@ -39,27 +39,28 @@ No build process is required as this is a static website.
 ```
 project/
 ├── index.html
+├── favicon
 ├── assets/
 │   └── css/
 │       └── style.css
-├── js/
-│   ├── config/
-│   │   ├── descriptions.js
-│   │   ├── sections.js
-│   │   └── icons.js
-│   ├── data/
-│   │   ├── anime.js
-│   │   ├── listing.js
-│   │   ├── manga.js
-│   │   ├── novels.js
-│   │   ├── forum.js
-│   │   ├── news.js
-│   │   ├── music.js
-│   │   ├── development.js
-│   │   └── nsfw.js
-│   ├── utils/
-│   │   └── modal.js
-│   └── main.js
+│ 
+├── config/
+│   ├── descriptions.js
+│   ├── sections.js
+│   └── icons.js
+├── sources/
+│   ├── anime.js
+│   ├── listing.js
+│   ├── manga.js
+│   ├── novels.js
+│   ├── forum.js
+│   ├── news.js
+│   ├── music.js
+│   ├── development.js
+│   └── nsfw.js
+├── utils/
+│     └── modal.js
+├── main.js
 └── README.md
 ```
 
