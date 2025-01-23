@@ -4,7 +4,7 @@ const descriptions = {
       desc: "Everything you need to watch and download anime, from streaming platforms to tracking tools.",
       streaming: {
         title: "Streaming Platforms",
-        desc: "Legal and free anime streaming websites with vast collections of series and movies."
+        desc: "Free anime streaming websites with vast collections of series and movies."
       },
          downloading: {
              title: "Download Sources",
