@@ -71,7 +71,7 @@ We welcome contributions! Here's how you can help:
 ### Adding New Sources
 
 1. Fork the repository
-2. Navigate to the appropriate file in the `js/data` directory
+2. Navigate to the appropriate file in the `sources` directory
 3. Add your source following this format:
 
 ```javascript
@@ -103,10 +103,10 @@ We welcome contributions! Here's how you can help:
 
 To add a new category:
 
-1. Create a new file in `js/data` for your category
-2. Add the category configuration to `js/config/descriptions.js`
-3. Add the category sections to `js/config/sections.js`
-4. Add the category icon to `js/config/icons.js`
+1. Create a new file in `sources` for your category
+2. Add the category configuration to `config/descriptions.js`
+3. Add the category sections to `config/sections.js`
+4. Add the category icon to `config/icons.js`
 5. Update `index.html` to include the new tab
 
 ### Pull Request Process
