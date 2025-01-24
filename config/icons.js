@@ -8,7 +8,7 @@ const icons = {
     discussion: '<i class="fas fa-comments"></i>',
     animanga: '<i class="fas fa-newspaper"></i>',
     music: '<i class="fa-solid fa-headphones"></i>',
-    
+    stores: '<i class="fa-solid fa-store"></i>',
     development: '<i class="fa-solid fa-code"></i>',
 };
 

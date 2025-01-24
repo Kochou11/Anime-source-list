@@ -18,6 +18,7 @@ A curated collection of anime, manga, and related resources - from streaming pla
 - **Listing**: Databases and scheduling tools
 - **Manga**: Reading platforms and applications
 - **Light Novels**: Reading websites and apps
+- **Visual Novels**: Stores and platforms
 - **Music**: Anime music resources
 - **Forums**: Community discussion platforms
 - **News**: Anime and manga news sources
@@ -107,7 +108,8 @@ To add a new category:
 2. Add the category configuration to `config/descriptions.js`
 3. Add the category sections to `config/sections.js`
 4. Add the category icon to `config/icons.js`
-5. Update `index.html` to include the new tab
+5. Add the data variable from your `sources` in `main.js`
+6. Update `index.html` to include the new tab
 
 ### Pull Request Process
 

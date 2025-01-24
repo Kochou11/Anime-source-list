@@ -13,6 +13,13 @@ const newsData = {
     desc: 'Latest updates and features from Crunchyroll.',
     tags: ['Streaming', 'News', 'Events'],
     image: 'https://www.crunchyroll.com/build/assets/img/favicons/favicon-v2-96x96.png',
-    }
+    },
+    {
+      name: "Honey's Anime",
+      url: 'https://honeysanime.com',
+      desc: 'News site focusing anime, manga, and games.',
+      tags: ['Reviews', 'News'],
+      image: 'https://honeysanime.com/wp-content/uploads/img-common/favicon/favicon.ico',
+      }
     ]
 };
