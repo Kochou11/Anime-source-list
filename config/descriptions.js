@@ -56,7 +56,7 @@ const descriptions = {
               title: "Visual Novels",
               desc: "Resources on where to get visual novels.",
               stores: {
-                title: "Stores",
+                title: "Visual Novel Stores",
                 desc: "Stores and game platforms to buy visual novels."
               },
            },
