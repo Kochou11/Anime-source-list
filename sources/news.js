@@ -20,6 +20,13 @@ const newsData = {
       desc: 'News site focusing anime, manga, and games.',
       tags: ['Reviews', 'News'],
       image: 'https://honeysanime.com/wp-content/uploads/img-common/favicon/favicon.ico',
+      },
+      {
+        name: "Fuwanovel",
+        url: "https://fuwanovel.moe",
+        desc: "News site, blog, and community specializing in visual novels.",
+        tags: ["News", "Blog", "Forum"],
+        image: 'https://fuwanovel.moe/wp-content/uploads/2016/06/cropped-Logo-Shield-Words-32x32.png'
       }
     ]
 };
