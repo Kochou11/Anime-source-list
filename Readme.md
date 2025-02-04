@@ -54,6 +54,7 @@ project/
 │   ├── listing.js
 │   ├── manga.js
 │   ├── novels.js
+│   ├── visualNovels.js
 │   ├── forum.js
 │   ├── news.js
 │   ├── music.js
