@@ -8,6 +8,7 @@ const data = {
   listing: listingData,
   manga: mangaData,
   novels: novelsData,
+  visualNovels: visualNovelsData,
   forum: forumData,
   news: newsData,
   music: musicData,

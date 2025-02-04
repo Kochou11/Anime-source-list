@@ -52,6 +52,14 @@ const descriptions = {
                desc: "Applications dedicated to reading light novels on various devices."
              }
            },
+           visualNovels: {
+              title: "Visual Novels",
+              desc: "Resources on where to get visual novels.",
+              stores: {
+                title: "Visual Novel Stores",
+                desc: "Stores and game platforms to buy visual novels."
+              },
+           },
            forum: {
              title: "Forum Resources",
              desc: "Community platforms for discussing anime, manga, and related topics.",

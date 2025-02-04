@@ -3,6 +3,7 @@ const sections = {
     listing: ['database', 'schedule'],
     manga: ['reading', 'apps'],
     novels: ['reading', 'apps'],
+    visualNovels: ['stores'],
     music: ['music'],
     forum: ['discussion'],
     news: ['animanga'],

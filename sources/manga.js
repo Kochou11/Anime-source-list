@@ -11,7 +11,7 @@ const mangaData = {
       name: "Manga Plus",
       desc: "Official manga reader app by Shueisha, offering the latest chapters for free.",
       tags: ["Official", "Free", "App", "website"],
-      link: "https://mangaplus.shueisha.co.jp",
+      url: "https://mangaplus.shueisha.co.jp",
       image: "https://mangaplus.shueisha.co.jp/img/app_icon.919a13c7.png"
       },
     {

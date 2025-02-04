@@ -5,7 +5,7 @@ const novelsData = {
       name: "Syosetu",
       desc: "Japanese web novel platform hosting many original light novels where amateur writers publish their stories as they write them. Many popular officially published books started out on this website. (Note: the site is in Japanese use google translate to navigate and read.)",
       tags: ["Web-novels", "Japanese", "Original"],
-      link: "https://syosetu.com",
+      url: "https://syosetu.com",
       image: "https://static.syosetu.com/view/images/narou.ico?psawph"
 },
                 ],

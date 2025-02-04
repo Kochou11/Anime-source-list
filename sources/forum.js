@@ -20,6 +20,13 @@ const forumData = {
     desc: 'Long-running anime and manga discussion forum with detailed episodic discussions.',
     tags: ['Discussion', 'Community'],
     image: 'https://forums.animesuki.com/favicon.ico'
-                    }
+                    },
+   {
+     name: 'Fuwanovel',
+     url: 'https://forums.fuwanovel.moe',
+     desc: "Discussion forum primarily focusing on visual novels along with other sections on anime and manga.",
+     tags: ["Discussion", "Community"],
+     image: 'https://fuwanovel.moe/wp-content/uploads/2016/06/cropped-Logo-Shield-Words-32x32.png'
+   }
                 ]
 };

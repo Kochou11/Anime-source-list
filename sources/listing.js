@@ -29,6 +29,13 @@ const listingData = {
       image: 'https://cdn-eu.anidb.net/css/assets/images/touch/favicon-32x32.png?v=2024-09-10T14-53-20'
                     },
     {
+      name: 'VNDB',
+      url: 'https://vndb.org/',
+      desc: 'VNDB.org strives to be a comprehensive database for information about visual novels.',
+      tags: ['Non profit', 'Database', 'community'],
+      image: 'https://vndb.org/favicon.ico'
+                    },
+    {
       name: "Anime-Planet",
       desc: "Anime and manga recommendation database with a friendly community.",
       tags: ["recommendations", "database", "community"],
