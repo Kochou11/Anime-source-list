@@ -6,7 +6,7 @@ const visualNovelsData = {
       desc: "Visual novel publisher, translator and store. All visual novels here can be found DRM-Free",
       tags: ["Store", "DRM-Free", "Publisher"],
       url: "https://jastusa.com",
-      image: "https://jastusa.com/fav.ico"
+      image: "https://i.ibb.co/99K10LY0/favicon-V2-1.png"
     },
     {
       name: "MangaGamer",
