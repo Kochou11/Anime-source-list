@@ -7,6 +7,14 @@ const animeData = {
           tags: ['Free', 'Sub', 'ADs', 'Redirects'],
           image: 'https://i.pinimg.com/280x280_RS/2a/c7/b5/2ac7b5b0b304152ee3cd9231b0af3fe9.jpg'
         },
+        {
+          name: 'Animekai',
+          url: 'https://animekai.to/',
+          desc: 'NEW anime site with modern design and a huge library, including old series in good quality. It offers a reliable streaming server with hard-subbed anime and re-encodes for smaller sizes, featuring a mix of Web and Blu-ray releases. No ADs',
+          tags: ['Sub', 'Dub', 'Donghua', 'HD'],
+          image: 'https://i.ibb.co/rRbSqyFs/favicon-V2.png'
+          
+        },
           {
             name: 'Hianime',
             url: 'https://www.hianime.to',
