@@ -30,13 +30,7 @@ const animeData = {
           },
 
 
-          {
-            name: 'Gogoanime',
-            url: 'https://gogotaku.info/',
-            desc: 'A very large library with easy downloads. However, it has intrusive ads and an old-fashioned interface.(last update: 24 Nov 2024)',
-            tags: ['Dub', 'HD', 'Sub', 'No New Episodes'],
-            image: 'https://cdn.gogocdn.net/files/gogo/img/favicon.ico'
-          },
+          
 
           {
             name: 'miruro',
@@ -45,6 +39,14 @@ const animeData = {
             tags: ['scraper', 'open source', 'modern', 'ADs'],
             image: 'https://www.miruro.com/icon-512x512_tr.png'
           },
+             {
+             name: 'Gogoanime',
+              url: 'https://gogotaku.info/',
+              desc: 'A very large library with easy downloads. However, it has intrusive ads and an old-fashioned interface.(last update: 24 Nov 2024)',
+              tags: ['Dub', 'HD', 'Sub', 'No New Episodes'],
+              image: 'https://cdn.gogocdn.net/files/gogo/img/favicon.ico'
+              }, 
+              
           {
             name: "HIDIVE",
             desc: "Streaming service that delivers simulcasts, fresh dubs, uncensored titles, deep cuts and more.Affordable licensed service with exclusive anime, but region-locked, smaller library, and slightly lower quality.",
