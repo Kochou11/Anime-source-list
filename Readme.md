@@ -120,7 +120,9 @@ To add a new category:
 4. Submit the pull request
 
 ## Disocrd 
-![Discord Banner 2](https://discord.com/api/guilds/[1338080643996844032]/widget.png?style=banner2)
+<a href="https://discord.gg/eqSPdMmcbE">
+   <img src="https://discordapp.com/api/guilds/1338080643996844032/widget.png?style=banner2"/>
+</a>
 
 ## 📝 License
 
