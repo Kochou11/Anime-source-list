@@ -67,6 +67,7 @@ project/
 ```
 ## Discord 
 **Join [discord](https://discord.gg/eqSPdMmcbE) for support.**
+[![](https://dcbadge.limes.pink/api/server/https://discord.gg/eqSPdMmcbE)](https://discord.gg/eqSPdMmcbE)
 
 ## 🤝 Contributing
 
