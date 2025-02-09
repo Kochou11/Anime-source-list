@@ -119,6 +119,8 @@ To add a new category:
 3. Reference any related issues
 4. Submit the pull request
 
+## Disocrd 
+![Discord Banner 2](https://discord.com/api/guilds/[1338080643996844032]/widget.png?style=banner2)
 
 ## 📝 License
 
