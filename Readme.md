@@ -65,6 +65,8 @@ project/
 ├── main.js
 └── README.md
 ```
+## Discord 
+**Join [discord](https://discord.gg/eqSPdMmcbE) for support.**
 
 ## 🤝 Contributing
 
@@ -119,10 +121,7 @@ To add a new category:
 3. Reference any related issues
 4. Submit the pull request
 
-## Disocrd 
-<a href="https://discord.gg/eqSPdMmcbE">
-   <img src="https://discordapp.com/api/guilds/1338080643996844032/widget.png?style=banner2"/>
-</a>
+
 
 ## 📝 License
 
