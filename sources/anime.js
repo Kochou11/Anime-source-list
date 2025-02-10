@@ -23,17 +23,32 @@ const animeData = {
             image: 'https://cdn2.steamgriddb.com/icon/a0e7be097b3b5eb71d106dd32f2312ac.png'
           },
           {
+           name: "AnimeStream",
+           url: "https://anime.uniquestream.net/",
+           desc: "A basic UI streaming site that scrapes from Crunchyroll, offering the highest video quality with multi-language hard-subs. Requires a DRM-supported browser.",
+           tags: ["HD", "Basic UI", "Hard subs", "Scraper"],
+           image: "https://i.ibb.co/XfRtLN5Y/favicon-V2-3.png"
+          },
+          {
+            name: "KickAssAnime",
+            url: "https://kaa.mx/",
+            desc: "A modern site with high video bitrate and soft subtitle support, great for new releases. It has a small library, but missing older titles can be requested through thier server. bad ADs",
+            tags: ["Sub", "Dub", "ADs", "HD", "Good UI"],
+            image: "https://i.ibb.co/xK5K1Szr/favicon-V2-2.png"
+          },
+          
+          {
             name: 'animation.filmarchives.jp',
             url: 'https://animation.filmarchives.jp/en/',
             desc: 'It is hosted by the National Film Archive of Japan, an official institution dedicated to preserving and showcasing Japanese film heritage, including animation. ',
-            tags: ['Official', 'Archive', 'eductaional'],
+            tags: ['Official', 'Archive', 'Eductaional'],
             image: 'https://animation.filmarchives.jp/favicon.ico'
           },
           {
             name: 'Crunchyroll',
             url: 'https://www.crunchyroll.com/',
             desc: 'Legal streaming platform with simulcast anime and original content but region-locked, lacks comments, and requires a subscription for most content.',
-            tags: ['Official', 'HD', 'Premium', 'region lock'],
+            tags: ['Official', 'HD', 'Premium', 'Region lock'],
             image: 'https://www.crunchyroll.com/build/assets/img/favicons/favicon-v2-96x96.png'
           },
 
@@ -44,7 +59,7 @@ const animeData = {
             name: 'miruro',
             url: 'https://www.miruro.tv ',
             desc: 'Scrapes multiple sources and languages with a modern interface and open source but has bad ads. ',
-            tags: ['scraper', 'open source', 'modern', 'ADs'],
+            tags: ['Scraper', 'Open source', 'Good UI', 'ADs'],
             image: 'https://www.miruro.com/icon-512x512_tr.png'
           },
              
@@ -52,7 +67,7 @@ const animeData = {
           {
             name: "HIDIVE",
             desc: "Streaming service that delivers simulcasts, fresh dubs, uncensored titles, deep cuts and more.Affordable licensed service with exclusive anime, but region-locked, smaller library, and slightly lower quality.",
-            tags: ["licensed", "simulcast", "affordable"],
+            tags: ["Licensed", "Simulcast", "Affordable"],
             url: "https://www.hidive.com",
             image: "https://d9hhrg4mnvzow.cloudfront.net/welcome.hidive.com/a601d032-favicon-64x64.png"
           },
