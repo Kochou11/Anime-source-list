@@ -81,6 +81,20 @@ const animeData = {
                 tags: ['Torrent', 'Trusted', 'Closed registration'],
                 image: 'https://nyaa.si/static/favicon.png'
                     },
+                    {
+                      name: "SubsPlease",
+                      url: "https://subsplease.org/",
+                      desc: "SubsPlease is a fan-driven group dedicated to providing timely English-subtitled anime releases, offering torrents, XDCC downloads, a release schedule, and RSS updates.",
+                      tags: ["XDCC", "Torrent","High quality" ],
+                      image: "https://i.ibb.co/ch5qM3Hn/favicon-V2.jpg"
+                    },
+                    {
+                      name: "Tokyo Insider",
+                      url: "https://tokyoinsider.com/",
+                      desc: "TokyoInsider.com is an anime-focused website offering reviews, user ratings, and direct DDL downloads. It is self-hosted and has a large library. Has an outdated UI/UX",
+                      tags: ["DDL", "Self Hosted", "Bad UI"],
+                      image: "https://i.ibb.co/zHV9BFWq/favicon-V2-4.png"
+                    },
 
                 ],
             //anime apps resources 
