@@ -92,7 +92,7 @@ const animeData = {
                       name: "Tokyo Insider",
                       url: "https://tokyoinsider.com/",
                       desc: "TokyoInsider.com is an anime-focused website offering reviews, user ratings, and direct DDL downloads. It is self-hosted and has a large library. Has an outdated UI/UX",
-                      tags: ["DDL", "Self Hosted", "Bad UI"],
+                      tags: ["DDL", "Self Hosted", "Outdated UI"],
                       image: "https://i.ibb.co/zHV9BFWq/favicon-V2-4.png"
                     },
 

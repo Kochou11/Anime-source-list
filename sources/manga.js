@@ -7,7 +7,14 @@ const mangaData = {
   url: "https://comick.io/home2",
   image: "https://comick.io/_next/image?url=%2Fstatic%2Ficons%2Funicorn-64-christmas.png&w=144&q=75"
 },
-   
+   {
+     name: "MangaPark",
+     desc: "Mangapark is a free online manga platform offering a wide selection of titles updated regularly. Its intuitive design and organized content make it a favorite destination for manga enthusiasts.",
+     tags: ["Big library", "Multiple Languages"],
+     url: "https://mangapark.org/mirrors",
+     image: "https://i.ibb.co/fzmMJz97/favicon-V2.png"
+     
+   },
    
     {
       name: 'Mangadex',
@@ -15,6 +22,13 @@ const mangaData = {
       desc: 'Community-driven manga reader with multiple language support.',
       tags: ['Scanlation', 'Multiple Languages'],
       image: 'https://mangadex.org/favicon.ico'
+                    },
+                    {
+                     name: "MangaFire",
+                     desc: "Mangafire is a free manga platform with a clean UI, real-time notifications, multi-language chapter and volume releases, a basic reader with watermarks, and a vast library.",
+                     tags: ["Multiple Languages", "Big library"], 
+                     url: "https://mangafire.to/home",
+                     image: "https://i.ibb.co/prnbTCJZ/favicon-V2-1.png"
                     },
     {
       name: "Manga Plus",
