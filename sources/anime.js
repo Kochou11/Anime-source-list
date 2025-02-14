@@ -1,20 +1,21 @@
 const animeData = {
     streaming: [
+              {
+          name: 'Animekai',
+          url: 'https://animekai.to/',
+          desc: 'NEW anime site with modern design and a huge library, including old series in good quality. It offers a reliable streaming server with hard-subbed anime and re-encodes for smaller sizes, featuring a mix of Web and Blu-ray releases. No ADs. (Personal favorite)',
+          tags: ['Sub', 'Dub', 'Donghua', 'HD'],
+          image: 'https://i.ibb.co/rRbSqyFs/favicon-V2.png'
+          
+        },
         {
           name: 'AnimePahe',
           url: 'https://animepahe.com/',
           desc: 'A medium anime library with a simple player, low data use, easy downloads, but limited dubs, features, no comments, and intrusive ads.',
           tags: ['Free', 'Sub', 'ADs', 'Redirects'],
-          image: 'https://i.pinimg.com/280x280_RS/2a/c7/b5/2ac7b5b0b304152ee3cd9231b0af3fe9.jpg'
+          image: 'https://i.ibb.co/cKXKQpZH/favicon-V2-2.png'
         },
-        {
-          name: 'Animekai',
-          url: 'https://animekai.to/',
-          desc: 'NEW anime site with modern design and a huge library, including old series in good quality. It offers a reliable streaming server with hard-subbed anime and re-encodes for smaller sizes, featuring a mix of Web and Blu-ray releases. No ADs',
-          tags: ['Sub', 'Dub', 'Donghua', 'HD'],
-          image: 'https://i.ibb.co/rRbSqyFs/favicon-V2.png'
-          
-        },
+
           {
             name: 'Hianime',
             url: 'https://www.hianime.to',
@@ -37,13 +38,7 @@ const animeData = {
             image: "https://i.ibb.co/xK5K1Szr/favicon-V2-2.png"
           },
           
-          {
-            name: 'animation.filmarchives.jp',
-            url: 'https://animation.filmarchives.jp/en/',
-            desc: 'It is hosted by the National Film Archive of Japan, an official institution dedicated to preserving and showcasing Japanese film heritage, including animation. ',
-            tags: ['Official', 'Archive', 'Eductaional'],
-            image: 'https://animation.filmarchives.jp/favicon.ico'
-          },
+          
           {
             name: 'Crunchyroll',
             url: 'https://www.crunchyroll.com/',
@@ -63,7 +58,13 @@ const animeData = {
             image: 'https://www.miruro.com/icon-512x512_tr.png'
           },
              
-              
+         {
+  name: 'animation.filmarchives.jp',
+  url: 'https://animation.filmarchives.jp/en/',
+  desc: 'It is hosted by the National Film Archive of Japan, an official institution dedicated to preserving and showcasing Japanese film heritage, including animation. ',
+  tags: ['Official', 'Archive', 'Eductaional'],
+  image: 'https://animation.filmarchives.jp/favicon.ico'
+},     
           {
             name: "HIDIVE",
             desc: "Streaming service that delivers simulcasts, fresh dubs, uncensored titles, deep cuts and more.Affordable licensed service with exclusive anime, but region-locked, smaller library, and slightly lower quality.",
