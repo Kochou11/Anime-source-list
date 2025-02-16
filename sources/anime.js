@@ -51,7 +51,7 @@ const animeData = {
           
 
           {
-            name: 'miruro',
+            name: 'Miruro',
             url: 'https://www.miruro.tv ',
             desc: 'Scrapes multiple sources and languages with a modern interface and open source but has bad ads. ',
             tags: ['Scraper', 'Open source', 'Good UI', 'ADs'],
