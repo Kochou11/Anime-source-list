@@ -24,6 +24,14 @@ const mangaData = {
       image: 'https://mangadex.org/favicon.ico'
                     },
                     {
+                      name: "Bato.to",
+                      desc: "A platform offering both scanlated and official translations with a large, popular library and exclusive content, though its interface is somewhat outdated.",
+                      url: "https://rentry.co/batoto",
+                      tags: [ "Scanlation", "Official translations"],
+                      image: "https://bato.to/amsta/img/batoto/favicon.gif?v0"
+                      
+                    },
+                    {
                      name: "MangaFire",
                      desc: "Mangafire is a free manga platform with a clean UI, real-time notifications, multi-language chapter and volume releases, a basic reader with watermarks, and a vast library.",
                      tags: ["Multiple Languages", "Big library"], 

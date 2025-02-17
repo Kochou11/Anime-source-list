@@ -29,8 +29,15 @@ const novelsData = {
       name: 'LNReader',
       url: 'https://github.com/LNReader/lnreader',
       desc: 'Light novel reader app with multiple source support.',
-      tags: ['Android', 'Multiple Sources'],
+      tags: ['Android', 'Multiple Sources',  'Open source'],
       image: 'https://raw.githubusercontent.com/LNReader/lnreader/master/.github/readme-images/icon_alt.png'
+                    },
+                    {
+                      name: "QuickNovel",
+                      url: "https://github.com/LagradOst/QuickNovel",
+                      desc: "Android app for downloading novels. It also functions as an Epub reader",
+                      tags: ["Android", "Multiple sources", "Open source"],
+                      image: "https://www.openapk.net/images/icons/quicknover-android-apk.png"
                     }
                 ]
 };

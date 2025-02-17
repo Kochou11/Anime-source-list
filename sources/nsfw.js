@@ -7,6 +7,20 @@ streaming: [
       desc: 'Adult anime streaming platform with nice interface, reliable player, large library, and long track record, but 1080p requires premium.',
       tags: ['Hentai', 'freemium', 'HD'],
       image: 'https://hanime.tv/favicon.ico'
+},
+{
+  name: "hentaihaven",
+  url: "https://hentaihaven.xxx/",
+  desc: " Medium library with long track record. Login required to download",
+  tags: ["Hentai", "HD"],
+  image: "https://i.ibb.co/W9mnycV/favicon-V2-2.png"
+},
+{
+  name: "Oppai.stream",
+  url: "https://oppai.stream/",
+  desc: "Small library but provides upscaled streams and has a good UI ",
+  tags: ["Modern UI", "4k", "Small library"],
+  image: "https://i.ibb.co/7dqfFpNx/apple-touch-icon.png"
 }
 ],
   // nsfw reading resources 
@@ -17,6 +31,14 @@ streaming: [
       desc: 'Adult manga platform with Long track record and Very Large library.',
       tags: ['Hentai', 'Large library '],
       image: 'https://asmhentai.com/favicon.ico'
+}, 
+{
+  name: "Toongod",
+  url: "https://www.toongod.org/home/",
+  desc: "Manhwa platform, most of it is NSFW manhwa and has a medium library. Comment section available. decent community",
+  tags: ["Manhwa", "Medium library"], 
+  image: "https://i.ibb.co/Lz5WyCxD/favicon-V2-1.png"
+  
 }
 ],
   // nsfw database resources 

@@ -37,7 +37,13 @@ const animeData = {
             tags: ["Sub", "Dub", "ADs", "HD", "Good UI"],
             image: "https://i.ibb.co/xK5K1Szr/favicon-V2-2.png"
           },
-          
+          {
+            name: "Anime Nexus",
+            url: "https://anime.nexus/",
+            desc: "High-quality streaming with multi-language soft subtitles and modern design, but a limited library and some compatibility issues on lower-end phones.",
+            tags: ["HD", "Medium library", "Modern UI"],
+            image: "https://anime.nexus/favicon-32x32.png"
+          },
           
           {
             name: 'Crunchyroll',
