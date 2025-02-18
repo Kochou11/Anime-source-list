@@ -127,6 +127,21 @@ const animeData = {
                 tags: ['extensions ', 'Open Source', 'cross'],
                 image: 'https://raw.githubusercontent.com/miru-project/miru-app/dev/assets/icon/logo.png'
                     },
+                    {
+                      name: "Miru",
+                      url: "https://github.com/ThaUnknown/miru",
+                      desc: "(miru.watch) Stream anime torrents, real-time with no waiting for downloads. Android app is paid, available for window, mac, linux and more. (USE MIGU FOR ANDROID) ",
+                      tags: ["Torrent", "Paid", "Multi platforms"],
+                      image: "https://raw.githubusercontent.com/ThaUnknown/miru/refs/heads/master/common/public/logo_filled.ico"
+                      
+                    },
+                    {
+                    name: "Migu",
+                    url: "https://github.com/NoCrypt/migu/tree/v5.6.2",
+                    desc: "Stream anime torrents, real-time with no waiting for downloads. Migu is a fork of Miru (miru.watch) that focused on better mobile experience with added features. Available for windows,mac,linux,android and more ",
+                    tags: ["Multi platfroms", "Torrent", "Free"],
+                    image: "https://raw.githubusercontent.com/NoCrypt/migu/refs/tags/v5.6.2/common/public/logo_filled.ico"
+                    },
               {
                 name: 'Totoro',
                 url: 'https://github.com/insomniachi/Totoro',

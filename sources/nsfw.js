@@ -21,6 +21,13 @@ streaming: [
   desc: "Small library but provides upscaled streams and has a good UI ",
   tags: ["Modern UI", "4k", "Small library"],
   image: "https://i.ibb.co/7dqfFpNx/apple-touch-icon.png"
+},
+{
+  name: "MissAV",
+  url: "https://missav.ws/dm19/en",
+  desc: "Japan AV porn site, high speed, no lag, over 100,000 videos, daily update, no ads while playing video.",
+  tags: ["JAV", "Big library",  "Good UI"],
+  image: "https://i.ibb.co/fzFwh8r8/favicon-V2-3.png"
 }
 ],
   // nsfw reading resources 

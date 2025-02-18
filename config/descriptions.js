@@ -12,7 +12,7 @@ const descriptions = {
            },
            apps: {
              title: "Anime Apps",
-             desc: "Mobile and desktop applications for watching anime."
+             desc: "Mobile and desktop applications for watching anime. Beware of potential issue with your isp for using app with torrent streaming."
            }
          },
          listing: {
