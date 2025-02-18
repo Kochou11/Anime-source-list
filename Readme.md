@@ -15,6 +15,8 @@
 <div align= "center">
 A curated collection of anime, manga, and related resources - from streaming platforms to development tools. This project aims to provide a comprehensive list of resources for anime and manga enthusiasts.
 </div>
+
+
 ## 🌟 Features
 
 - Clean, modern interface with dark theme
