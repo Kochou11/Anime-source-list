@@ -534,3 +534,146 @@ flex-shrink: 0;
        opacity: 0.9;
     }
 
+.header {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+.header-text {
+  flex: 1;
+  min-width: 200px;
+  max-width: calc(100% - 170px);
+}
+
+.mascot-container {
+  max-width: 150px;
+  margin-left: 20px;
+  position: relative;
+}
+
+.mascot-img {
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.mascot-link {
+  position: relative;
+  display: inline-block;
+}
+
+.mascot-link:hover .mascot-img {
+  transform: scale(1.05);
+}
+
+/* Tooltip */
+.mascot-link .tooltip {
+  visibility: hidden;
+  width: 180px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 125%;
+  left: 50%;
+  margin-left: -90px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 0.75rem;
+}
+
+.mascot-link .tooltip::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.8) transparent transparent transparent;
+}
+
+.mascot-link:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
+/*  footer  */
+.credits-section {
+  margin-top: 15px;
+}
+
+.credits-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.credits-section a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.credits-section a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: left;
+    padding: 15px;
+  }
+  
+  .header-text {
+    max-width: calc(100% - 120px);
+  }
+  
+  .header-text h1 {
+    font-size: 1.5rem;
+    margin-top: 0;
+  }
+  
+  .header-text p {
+    font-size: 0.85rem;
+    margin-bottom: 0;
+  }
+  
+  .mascot-container {
+    max-width: 100px;
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+  
+  .mascot-link .tooltip {
+    width: 140px;
+    margin-left: -70px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-text {
+    max-width: calc(100% - 90px);
+  }
+  
+  .mascot-container {
+    max-width: 80px;
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+  
+  .mascot-link .tooltip {
+    width: 120px;
+    margin-left: -60px;
+    font-size: 0.6rem;
+  }
+}

@@ -1,7 +1,20 @@
-# NihonNav🎌
+<p align="center">
+  <a href="https://github.com/Kochou11/Anime-source-list">
+    <img src= "assets/miku.png"
+      alt="miku" 
+      width="175" 
+      height="175"
+      decoding="async"
+      fetchpriority="high"
+    />
+  </a>
+</p>
 
+#  <p align="center">NihonNav🎌</p>
+
+<div align= "center">
 A curated collection of anime, manga, and related resources - from streaming platforms to development tools. This project aims to provide a comprehensive list of resources for anime and manga enthusiasts.
-
+</div>
 ## 🌟 Features
 
 - Clean, modern interface with dark theme
