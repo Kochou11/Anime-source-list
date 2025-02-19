@@ -48,12 +48,12 @@
 }
 .broken {
   color: var(--text-secondary);
-  font-size: 1px;
+  font-size: 10px;
   margin-top: 10px;
 }
 .broken a {
   color: var(--primary);
-  font-size: 1px;
+  font-size: 10px;
   text-decoration: none;
 }
         .header p {
