@@ -72,6 +72,7 @@ function updateContent() {
                     <div class="card-tags">
                         ${item.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
                     </div>
+                    ${item.note ? `<p class="card-note">${item.note}</p>` : ''}
                 </a>
             `).join('');
         }

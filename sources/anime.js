@@ -3,9 +3,10 @@ const animeData = {
               {
           name: 'Animekai',
           url: 'https://animekai.to/',
-          desc: 'NEW anime site with modern design and a huge library, including old series in good quality. It offers a reliable streaming server with hard-subbed anime and re-encodes for smaller sizes, featuring a mix of Web and Blu-ray releases. No ADs. (Personal favorite)',
+          desc: 'NEW anime site with modern design and a huge library, including old series in good quality. It offers a reliable streaming server with hard-subbed anime and re-encodes for smaller sizes, featuring a mix of Web and Blu-ray releases. No ADs.',
           tags: ['Sub', 'Dub', 'Donghua', 'HD'],
-          image: 'https://i.ibb.co/rRbSqyFs/favicon-V2.png'
+          image: 'https://i.ibb.co/rRbSqyFs/favicon-V2.png',
+          note: "Frequent buffering from time to time "
           
         },
         {
@@ -19,9 +20,10 @@ const animeData = {
           {
             name: 'Hianime',
             url: 'https://www.hianime.to',
-            desc: 'A large anime library with soft subtitles, modern design, and reliable streams, but hindered by bad ads and broken subtitle typesetting.(formerly: zoro, aniwatch)',
+            desc: 'A large anime library with soft subtitles, modern design, and reliable streams, but hindered by bad ads and broken subtitle typesetting.',
             tags: ['Sub', 'Dub', 'HD', 'ADs', 'Pop Up'],
-            image: 'https://cdn2.steamgriddb.com/icon/a0e7be097b3b5eb71d106dd32f2312ac.png'
+            image: 'https://cdn2.steamgriddb.com/icon/a0e7be097b3b5eb71d106dd32f2312ac.png',
+            note: "Formerly: zoro, aniwatch"
           },
           {
            name: "AnimeStream",
@@ -61,7 +63,8 @@ const animeData = {
             url: 'https://www.miruro.tv ',
             desc: 'Scrapes multiple sources and languages with a modern interface and open source but has bad ads. ',
             tags: ['Scraper', 'Open source', 'Good UI', 'ADs'],
-            image: 'https://www.miruro.com/icon-512x512_tr.png'
+            image: 'https://www.miruro.com/icon-512x512_tr.png',
+            note: "Servers can be unreliable sometimes"
           },
              
          {
@@ -86,7 +89,8 @@ const animeData = {
                 url: 'https://nyaa.si/',
                 desc: 'The largest anime torrent site with diverse content and high activity but closed registration and basic info.',
                 tags: ['Torrent', 'Trusted', 'Closed registration'],
-                image: 'https://nyaa.si/static/favicon.png'
+                image: 'https://nyaa.si/static/favicon.png',
+                note: "<a href=https://thewiki.moe/>See thewiki.moe for torrenting guide</a>"
                     },
                     {
                       name: "SubsPlease",
@@ -130,9 +134,10 @@ const animeData = {
                     {
                       name: "Miru",
                       url: "https://github.com/ThaUnknown/miru",
-                      desc: "(miru.watch) Stream anime torrents, real-time with no waiting for downloads. Android app is paid, available for window, mac, linux and more. (USE MIGU FOR ANDROID) ",
+                      desc: "(miru.watch) Stream anime torrents, real-time with no waiting for downloads. Android app is paid, available for window, mac, linux and more.",
                       tags: ["Torrent", "Paid", "Multi platforms"],
-                      image: "https://raw.githubusercontent.com/ThaUnknown/miru/refs/heads/master/common/public/logo_filled.ico"
+                      image: "https://raw.githubusercontent.com/ThaUnknown/miru/refs/heads/master/common/public/logo_filled.ico",
+                      note: "Streams torrent, might arise problem with your ISP. USE MIGU FOR ANDROID"
                       
                     },
                     {
@@ -140,7 +145,8 @@ const animeData = {
                     url: "https://github.com/NoCrypt/migu/tree/v5.6.2",
                     desc: "Stream anime torrents, real-time with no waiting for downloads. Migu is a fork of Miru (miru.watch) that focused on better mobile experience with added features. Available for windows,mac,linux,android and more ",
                     tags: ["Multi platfroms", "Torrent", "Free"],
-                    image: "https://raw.githubusercontent.com/NoCrypt/migu/refs/tags/v5.6.2/common/public/logo_filled.ico"
+                    image: "https://raw.githubusercontent.com/NoCrypt/migu/refs/tags/v5.6.2/common/public/logo_filled.ico",
+                    note: "Streams torrent, might arise problem with your ISP"
                     },
               {
                 name: 'Totoro',

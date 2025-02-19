@@ -46,8 +46,16 @@
     font-weight: 600;
     animation: gradientShift 6s ease infinite;
 }
-
-
+.broken {
+  color: var(--text-secondary);
+  font-size: 1px;
+  margin-top: 10px;
+}
+.broken a {
+  color: var(--primary);
+  font-size: 1px;
+  text-decoration: none;
+}
         .header p {
     color: var(--text-secondary);
 }
@@ -782,4 +790,23 @@ flex-shrink: 0;
     margin-left: -60px;
     font-size: 0.6rem;
   }
+}
+.card-note {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  margin-top: 0.5rem;
+  padding-left: 0.5rem;
+  border-left: 2px solid var(--border);
+  font-style: italic;
+  opacity: 0.85;
+}
+
+.card-note a {
+  color: inherit; 
+  text-decoration: underline;
+  pointer-events: auto; 
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
 }

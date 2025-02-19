@@ -12,7 +12,8 @@ const developmentData = {
     url: 'https://api.consumet.org/',
     desc: 'A free and open-source API for anime, manga, movies, and TV shows.',
     tags: ['API', 'Anime', 'Open Source'],
-    image: 'https://camo.githubusercontent.com/0620c04990b737201e7a746b6306f14eeaa823a742e939fa963a228a39631cfb/68747470733a2f2f636f6e73756d65742e6f72672f696d616765732f636f6e73756d65746c6f676f2e706e67'
+    image: 'https://camo.githubusercontent.com/0620c04990b737201e7a746b6306f14eeaa823a742e939fa963a228a39631cfb/68747470733a2f2f636f6e73756d65742e6f72672f696d616765732f636f6e73756d65746c6f676f2e706e67',
+    note: "Most of the endpoints do not work"
             },
   {
     name: 'MyAnimeList API',
