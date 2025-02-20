@@ -1,14 +1,20 @@
 
 
           :root {
-            --background: #18181b;
-            --card: #27272a;
-            --primary: #1db954;
-            --text: #fafafa;
-            --text-secondary: #71717a;
-            --border: #3f3f46;
-            --ring: #22c55e;
-            --hover: #3f3f46;
+            --background: #0f1117;
+  --card: #1a1b26;
+  --primary: #7c5dfa;
+  --primary-hover: #9277ff;
+  --text: #ffffff;
+  --text-secondary: #888da5;
+  --border: #252945;
+  --ring: #7c5dfa;
+  --hover: #252945;
+  
+  /* Gradients */
+  --gradient-primary: linear-gradient(135deg, #7c5dfa 0%, #9277ff 100%);
+  --gradient-hover: linear-gradient(135deg, #9277ff 0%, #7c5dfa 100%);
+
         }
 
         * {
@@ -871,9 +877,9 @@ flex-shrink: 0;
   color: var(--text-secondary);
   margin-top: 0.5rem;
   padding-left: 0.5rem;
-  border-left: 2px solid var(--border);
+  border-left: 2px solid #3f3f46;
   font-style: italic;
-  opacity: 0.85;
+  opacity: 0.95;
 }
 
 .card-note a {
@@ -884,4 +890,154 @@ flex-shrink: 0;
   border: none;
   padding: 0;
   margin: 0;
+}
+
+.theme-toggle {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background: var(--card);
+    border: 1px solid var(--border);
+    color: var(--primary);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    z-index: 1000;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.theme-toggle:hover {
+    transform: translateY(-3px);
+    background: var(--hover);
+}
+
+.theme-toggle i {
+    font-size: 1.2rem;
+    transition: transform 0.5s ease;
+}
+
+.theme-toggle.dark i {
+    transform: rotate(360deg);
+}
+
+
+.hide-modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: var(--card);
+    padding: 2rem;
+    border-radius: 1rem;
+    border: 1px solid var(--border);
+    z-index: 1002;
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+}
+
+.hide-modal.active {
+    display: block;
+    animation: modalFadeIn 0.3s ease;
+}
+
+.hide-modal-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+    z-index: 1001;
+}
+
+.hide-modal-overlay.active {
+    display: block;
+}
+
+.hide-modal h3 {
+    color: var(--text);
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.hide-modal p {
+    color: var(--text-secondary);
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+.hide-modal-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.hide-modal-button {
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.hide-modal-button.confirm {
+    background: var(--primary);
+    color: var(--text);
+}
+
+.hide-modal-button.cancel {
+    background: var(--hover);
+    color: var(--text);
+}
+
+.hide-modal-button:hover {
+    transform: translateY(-2px);
+}
+
+:root[data-theme="dark"] {
+    --background: #18181b;
+  --card: #27272a;
+  --primary: #1db954;
+  --text: #fafafa;
+  --text-secondary: #71717a;
+  --border: #3f3f46;
+  --ring: #22c55e;
+  --hover: #3f3f46;
+}
+
+@keyframes modalFadeIn {
+    from {
+        opacity: 0;
+        transform: translate(-50%, -48%) scale(0.96);
+    }
+    to {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+    }
+}
+
+
+@keyframes rotateIcon {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.theme-toggle i {
+    font-size: 1.2rem;
+    transition: transform 0.5s ease;
+}
+
+.theme-toggle i.rotating {
+    animation: rotateIcon 0.5s ease;
 }
