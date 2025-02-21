@@ -802,7 +802,7 @@ flex-shrink: 0;
 
 /*  footer  */
 .credits-section {
-  margin-top: 15px;
+  margin-top: -3px;
 }
 
 .credits-section ul {
