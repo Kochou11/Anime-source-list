@@ -873,6 +873,8 @@ flex-shrink: 0;
   }
 }
 .card-note {
+  position: relative;
+
   font-size: 0.75rem;
   color: var(--text-secondary);
   margin-top: 0.5rem;
@@ -880,16 +882,168 @@ flex-shrink: 0;
   border-left: 2px solid #3f3f46;
   font-style: italic;
   opacity: 0.95;
+transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+/* Desktop hover-triggered dropdown */
+@media (min-width: 769px) {
+  .card-note {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    border-left: none;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 0 0 0.5rem 0.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transform: translateY(10px);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 2;
+  }
+    .card-note::before {
+    content: "Note: ";
+    font-weight: 600;
+    color: var(--primary);
+  }
+  .card:hover .card-note {
+    opacity: 1;
+    max-height: 200px;
+    transform: translateY(0);
+    padding: 0.75rem;
+    margin-top: 0.5rem;
+  }
+  
+  .card {
+    position: relative;
+    transition: all 0.3s ease;
+    border-radius: 0.75rem 0.75rem 0 0;
+  }
+  
+  .card:hover {
+    border-radius: 0.75rem 0.75rem 0 0;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  }
+}
+
+/* Mobile-specific styling */
+@media (max-width: 768px) {
+  .card-note::before {
+    content: " ";
+    font-weight: 600;
+    color: var(--primary);
+  }
+  
+  .card-note {
+    
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  margin-top: 0.5rem;
+  padding-left: 0.5rem;
+  border-left: 2px solid #3f3f46;
+  font-style: italic;
+  opacity: 0.95;
+
+  }
+}
+
+/* Smooth hover transitions */
+.card {
+  transition: border-radius 0.3s ease;
+}
+
+.card-note {
+  transition:
+    opacity 0.2s ease,
+    transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+    padding 0.3s ease,
+    max-height 0.4s ease;
+}
+/* Mobile-first note styling (always visible) */
+.card-note {
+  position: relative;
+  
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  margin-top: 0.5rem;
+  padding-left: 0.5rem;
+  border-left: 2px solid #3f3f46;
+  font-style: italic;
+  opacity: 0.95;
+
 }
 
 .card-note a {
-  color: inherit; 
-  text-decoration: underline;
-  pointer-events: auto; 
-  background: none;
-  border: none;
-  padding: 0;
-  margin: 0;
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: 1px solid transparent;
+  transition: all 0.2s ease;
+  position: relative;
+  white-space: nowrap;
+}
+
+.card-note a:hover {
+  color: var(--primary-hover);
+  border-bottom-color: currentColor;
+}
+
+/* Desktop hover dropdown */
+@media (min-width: 769px) {
+  .card-note {
+    position: absolute;
+    bottom: 0;
+    left: -1px;
+    right: -1px;
+    margin: 0;
+    padding: 0;
+    max-height: 0;
+    opacity: 0;
+    overflow: visible;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 0 0 0.5rem 0.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transform: translateY(10px);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 2;
+    pointer-events: none;
+  }
+  
+  .card:hover .card-note,
+  .card-note:hover {
+    opacity: 1;
+    max-height: 200px;
+    transform: translateY(0);
+    padding: 0.75rem;
+    pointer-events: auto;
+  }
+  
+  .card-note a {
+    white-space: normal;
+    word-break: break-word;
+  }
+}
+
+/* Mobile link adjustments */
+@media (max-width: 768px) {
+  .card-note a {
+    display: inline-block;
+    padding: 2px 4px;
+    margin: 0 -4px;
+    border-radius: 4px;
+    background: rgba(124, 93, 250, 0.1);
+  }
+  
+  .card-note a:active {
+    background: rgba(124, 93, 250, 0.2);
+  }
 }
 
 .theme-toggle {

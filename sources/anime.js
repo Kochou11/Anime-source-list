@@ -90,7 +90,7 @@ const animeData = {
                 desc: 'The largest anime torrent site with diverse content and high activity but closed registration and basic info.',
                 tags: ['Torrent', 'Trusted', 'Closed registration'],
                 image: 'https://nyaa.si/static/favicon.png',
-                note: "<a href=https://thewiki.moe/>See thewiki.moe for torrenting guide</a>"
+                note: "See thewiki.moe for torrenting guide."
                     },
                     {
                       name: "SubsPlease",
