@@ -7,6 +7,14 @@ const novelsData = {
                url: "https://novelbuddy.com/home",
                image: "https://novelbuddy.com/static/common/mangabuddy-icon.png"
              },
+             {
+               name: "VyNovel",
+               url: "https://vynovel.com/",
+               desc: "Platform for reading web novels with an ad-free interface. It features a vast library across diverse genres, advanced search options, bookmark collections, and community discussions for a streamlined reading experience.", 
+               tags: ["large library", "Customizable reader"], 
+               image: "https://vynovel.com/web/img/icon-2.png",
+               note: "The UI is outdated. Blocked in india, japan and Indonesia"
+             },
 
     {
       name: "Syosetu",
@@ -38,6 +46,13 @@ const novelsData = {
                       desc: "Android app for downloading novels. It also functions as an Epub reader",
                       tags: ["Android", "Multiple sources", "Open source"],
                       image: "https://www.openapk.net/images/icons/quicknover-android-apk.png"
+                    },
+                    {
+                      name:"NovelDokusha",
+                      url: "https://github.com/nanihadesuka/NovelDokusha",
+                      desc: "Aggregates multiple novel sources and databases, supports local EPUB reading, and offers easy backup/restore. It features live translation and text-to-speech with adjustable voice, pitch, and speed, plus background playback and voice saving.",
+                      tags: ["Andorid", "Open-source",  "Multiple Sources"],
+                      image:"https://apt.izzysoft.de/fdroid/repo/my.noveldokusha/en-US/icon.png"
                     }
                 ]
 };
