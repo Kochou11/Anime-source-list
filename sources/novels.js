@@ -15,6 +15,7 @@ const novelsData = {
                image: "https://vynovel.com/web/img/icon-2.png",
                note: "The UI is outdated. Blocked in india, japan and Indonesia"
              },
+             
 
     {
       name: "Syosetu",

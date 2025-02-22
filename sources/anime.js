@@ -3,10 +3,10 @@ const animeData = {
               {
           name: 'Animekai',
           url: 'https://animekai.to/',
-          desc: 'NEW anime site with modern design and a huge library, including old series in good quality. It offers a reliable streaming server with hard-subbed anime and re-encodes for smaller sizes, featuring a mix of Web and Blu-ray releases. No ADs.',
+          desc: 'Anime site with modern design and a huge library, including old series in good quality. It offers a reliable streaming server with hard-subbed anime and re-encodes for smaller sizes, featuring a mix of Web and Blu-ray releases. No ADs.',
           tags: ['Sub', 'Dub', 'Donghua', 'HD'],
           image: 'https://i.ibb.co/rRbSqyFs/favicon-V2.png',
-          note: "Frequent buffering from time to time "
+          note:"New site, missing anime can be requested through the site"
           
         },
         {
