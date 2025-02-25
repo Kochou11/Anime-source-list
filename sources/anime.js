@@ -72,6 +72,16 @@ const animeData = {
             image: 'https://www.miruro.com/icon-512x512_tr.png',
             note: "Servers can be unreliable sometimes"
           },
+          {
+            name: "Vumeto",
+            url: "https://vumeto.com/",
+            desc: "AD-free anime streaming platform with multiple source options and a modern UI. It features advanced subtitle and quality controls, personalized watchlists, and community rewards.",
+            tags: ["Scraper", "Modern UI", "AD free"],
+            image: "https://vumeto.com/favicon.ico",
+            note: "Still in beta"
+
+
+          },
              
          {
   name: 'animation.filmarchives.jp',
