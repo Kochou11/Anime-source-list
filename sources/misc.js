@@ -24,8 +24,23 @@ const miscData = {
     image: "https://cdn.discordapp.com/icons/974468300304171038/a_e77a7ac037d3aa867a1b31346f58d198.webp",
     note: "One of the best guide to start torrenting."
     
+  },
+  {
+    name: "Japanese with Anime",
+    url: "https://www.japanesewithanime.com/2017/01/anime-words-japanese-meanings.html?m=1",
+    desc: "Explains the meanings of many Japanese words often used in manga and anime",
+    tags: ["Japanese Learning"],
+    image: "https://www.japanesewithanime.com/favicon.ico?m=1"
+  },
+  {
+    name: "Anime Filler List",
+    url: "https://www.animefillerlist.com/",
+    desc: "Community created filler ep lists. Provides data for more anime compared to other lists site.",
+    tags: ["Filler list"],
+    image: "https://www.animefillerlist.com/sites/default/files/favicon.ico",
   }
 ],
+
 index: [
 {
   name: "Seadex",
@@ -42,9 +57,7 @@ index: [
   image: "https://sneedex.moe/icons/icon-180x180.png?-1424782859",
   note: "Similar to seadex but not exactly the same"
 },
-{
-  
-}
+
   ],
       sites: [
   {
