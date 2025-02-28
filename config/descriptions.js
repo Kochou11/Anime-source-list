@@ -99,7 +99,7 @@ const descriptions = {
   title: "miscellaneous resources",
   desc: "miscellaneousresources",
   guides: {
-  title: "guides",
+  title: "Guides",
   desc: "wiki and guide resources."
 },
 index: {
@@ -107,7 +107,7 @@ index: {
   desc: "Index realted to anime and manga"
 },
   sites: {
-    title: "misc-sites",
+    title: "Misc-sites",
     desc: "sites that do not fall under other categories"
     
   },
