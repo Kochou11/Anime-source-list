@@ -10,5 +10,8 @@ const icons = {
     music: '<i class="fa-solid fa-headphones"></i>',
     stores: '<i class="fa-solid fa-store"></i>',
     development: '<i class="fa-solid fa-code"></i>',
+     sites: '<i class="fa-solid fa-earth-asia"></i>',
+   guides: '<i class="fa-solid fa-folder-open"></i>',
+   index: '<i class="fa-solid fa-list"></i>'
 };
 

@@ -13,7 +13,8 @@ const data = {
   news: newsData,
   music: musicData,
   development: developmentData,
-  nsfw: nsfwData
+  nsfw: nsfwData,
+  misc: miscData,
 };
 
 

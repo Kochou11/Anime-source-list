@@ -95,6 +95,24 @@ const descriptions = {
                desc: "List of anime music related sources "
              }
            },
+             misc: {
+  title: "miscellaneous resources",
+  desc: "miscellaneousresources",
+  guides: {
+  title: "guides",
+  desc: "wiki and guide resources."
+},
+index: {
+  title: "Index",
+  desc: "Index realted to anime and manga"
+},
+  sites: {
+    title: "misc-sites",
+    desc: "sites that do not fall under other categories"
+    
+  },
+             }, 
+           
            nsfw: {
              title: "NSFW Content",
              desc: "Age-restricted content with appropriate content warnings.",

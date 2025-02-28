@@ -8,5 +8,6 @@ const sections = {
     forum: ['discussion'],
     news: ['animanga'],
     development: ['development'],
+    misc: ['guides', 'index', 'sites'],
     nsfw: ['streaming', 'reading', 'database']
 };
