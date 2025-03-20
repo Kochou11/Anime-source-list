@@ -6,7 +6,8 @@ const animeData = {
           desc: 'Anime site with modern design and a huge library, including old series in good quality. It offers a reliable streaming server with hard-subbed anime and re-encodes for smaller sizes, featuring a mix of Web and Blu-ray releases. No ADs.',
           tags: ['Sub', 'Dub', 'Donghua', 'HD'],
           image: 'https://i.ibb.co/rRbSqyFs/favicon-V2.png',
-          note:"New site, missing anime can be requested through the site"
+          note:"New site, missing anime can be requested through the site",
+          rating: 4.5
           
         },
         {
@@ -14,14 +15,16 @@ const animeData = {
           url: 'https://animepahe.com/',
           desc: 'A medium anime library with a simple player, low data use, easy downloads, but limited dubs, features, no comments, and intrusive ads.',
           tags: ['Free', 'Sub', 'ADs', 'Redirects'],
-          image: 'https://i.ibb.co/cKXKQpZH/favicon-V2-2.png'
+          image: 'https://i.ibb.co/cKXKQpZH/favicon-V2-2.png',
+          rating: 3.5
         },
    {
      name: "Hikari",
      url: "https://hikari.gg/",
      desc: "Anime streaming site with minimal UI and a vast, actively updated library featuring soft subtitles, multiple languages and multi-audio options. Almost no ADs on the site except the player.",
      tags: ["HD", "Minimal AD", "Sub", "Dub"],
-     image: "https://cdn.discordapp.com/icons/1073723529557721118/7bf49235e19a3c2724aec290a2c42f72.webp?size=96"
+     image: "https://cdn.discordapp.com/icons/1073723529557721118/7bf49235e19a3c2724aec290a2c42f72.webp?size=96",
+     rating: 4
    },
           {
             name: 'Hianime',
@@ -70,7 +73,7 @@ const animeData = {
             desc: 'Scrapes multiple sources and languages with a modern interface and open source but has bad ads. ',
             tags: ['Scraper', 'Open source', 'Good UI', 'ADs'],
             image: 'https://www.miruro.com/icon-512x512_tr.png',
-            note: "Servers can be unreliable sometimes"
+            note: "Servers can be unreliable sometimes. frequent problems with bun and arc servers. "
           },
           {
             name: "Vumeto",
