@@ -3,7 +3,7 @@ const listingData = {
     {
       name: "NovelUpdates",
       desc: "Database and community for translated light novels and web novels.",
-      tags: ["Database", "Translations"],
+      tags: ["Database","novels", "Translations"],
       url: "https://www.novelupdates.com",
       image: "https://www.novelupdates.com/favicon.ico"
           },

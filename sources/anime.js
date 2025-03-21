@@ -7,7 +7,7 @@ const animeData = {
           tags: ['Sub', 'Dub', 'Donghua', 'HD'],
           image: 'https://i.ibb.co/rRbSqyFs/favicon-V2.png',
           note:"New site, missing anime can be requested through the site",
-          rating: 4.5
+          rating: 5
           
         },
         {
@@ -32,28 +32,32 @@ const animeData = {
             desc: 'A large anime library with soft subtitles, modern design, and reliable streams, but hindered by bad ads and broken subtitle typesetting.',
             tags: ['Sub', 'Dub', 'HD', 'ADs', 'Pop Up'],
             image: 'https://cdn2.steamgriddb.com/icon/a0e7be097b3b5eb71d106dd32f2312ac.png',
-            note: "Formerly: zoro, aniwatch"
+            note: "Formerly: zoro, aniwatch",
+            rating: 3.8
           },
           {
            name: "AnimeStream",
            url: "https://anime.uniquestream.net/",
            desc: "A basic UI streaming site that scrapes from Crunchyroll, offering the highest video quality with multi-language hard-subs. Requires a DRM-supported browser.",
            tags: ["HD", "Basic UI", "Hard subs", "Scraper"],
-           image: "https://i.ibb.co/XfRtLN5Y/favicon-V2-3.png"
+           image: "https://i.ibb.co/XfRtLN5Y/favicon-V2-3.png",
+           rating: 3
           },
           {
             name: "KickAssAnime",
             url: "https://kaa.mx/",
             desc: "A modern site with high video bitrate and soft subtitle support, great for new releases. It has a small library, but missing older titles can be requested through thier server. bad ADs",
             tags: ["Sub", "Dub", "ADs", "HD", "Good UI"],
-            image: "https://i.ibb.co/xK5K1Szr/favicon-V2-2.png"
+            image: "https://i.ibb.co/xK5K1Szr/favicon-V2-2.png",
+            rating: 4
           },
           {
             name: "Anime Nexus",
             url: "https://anime.nexus/",
             desc: "High-quality streaming with multi-language soft subtitles and modern design, but a limited library and some compatibility issues on lower-end phones.",
             tags: ["HD", "Medium library", "Modern UI"],
-            image: "https://anime.nexus/favicon-32x32.png"
+            image: "https://anime.nexus/favicon-32x32.png",
+            rating: 3.9
           },
           
           {
@@ -61,7 +65,8 @@ const animeData = {
             url: 'https://www.crunchyroll.com/',
             desc: 'Legal streaming platform with simulcast anime and original content but region-locked, lacks comments, and requires a subscription for most content.',
             tags: ['Official', 'HD', 'Premium', 'Region lock'],
-            image: 'https://www.crunchyroll.com/build/assets/img/favicons/favicon-v2-96x96.png'
+            image: 'https://www.crunchyroll.com/build/assets/img/favicons/favicon-v2-96x96.png',
+            rating: 3.5
           },
 
 
@@ -73,7 +78,8 @@ const animeData = {
             desc: 'Scrapes multiple sources and languages with a modern interface and open source but has bad ads. ',
             tags: ['Scraper', 'Open source', 'Good UI', 'ADs'],
             image: 'https://www.miruro.com/icon-512x512_tr.png',
-            note: "Servers can be unreliable sometimes. frequent problems with bun and arc servers. "
+            note: "Servers can be unreliable sometimes. frequent problems with bun and arc servers. ",
+            rating: 3
           },
           {
             name: "Vumeto",
@@ -81,24 +87,20 @@ const animeData = {
             desc: "AD-free anime streaming platform with multiple source options and a modern UI. It features advanced subtitle and quality controls, personalized watchlists, and community rewards.",
             tags: ["Scraper", "Modern UI", "AD free"],
             image: "https://vumeto.com/favicon.ico",
-            note: "Still in beta"
+            note: "Still in beta",
+            rating: 3
 
 
           },
              
-         {
-  name: 'animation.filmarchives.jp',
-  url: 'https://animation.filmarchives.jp/en/',
-  desc: 'It is hosted by the National Film Archive of Japan, an official institution dedicated to preserving and showcasing Japanese film heritage, including animation. ',
-  tags: ['Official', 'Archive', 'Eductaional'],
-  image: 'https://animation.filmarchives.jp/favicon.ico'
-},     
+           
           {
             name: "HIDIVE",
             desc: "Streaming service that delivers simulcasts, fresh dubs, uncensored titles, deep cuts and more.Affordable licensed service with exclusive anime, but region-locked, smaller library, and slightly lower quality.",
             tags: ["Licensed", "Simulcast", "Affordable"],
             url: "https://www.hidive.com",
-            image: "https://d9hhrg4mnvzow.cloudfront.net/welcome.hidive.com/a601d032-favicon-64x64.png"
+            image: "https://d9hhrg4mnvzow.cloudfront.net/welcome.hidive.com/a601d032-favicon-64x64.png",
+            rating: 2.8
           },
           ],
           //downloading resources 
@@ -109,21 +111,24 @@ const animeData = {
                 desc: 'The largest anime torrent site with diverse content and high activity but closed registration and basic info.',
                 tags: ['Torrent', 'Trusted', 'Closed registration'],
                 image: 'https://nyaa.si/static/favicon.png',
-                note: "See thewiki.moe for torrenting guide."
+                note: "See thewiki.moe for torrenting guide.",
+                rating: 5
                     },
                     {
                       name: "SubsPlease",
                       url: "https://subsplease.org/",
                       desc: "SubsPlease is a fan-driven group dedicated to providing timely English-subtitled anime releases, offering torrents, XDCC downloads, a release schedule, and RSS updates.",
                       tags: ["XDCC", "Torrent","High quality" ],
-                      image: "https://i.ibb.co/ch5qM3Hn/favicon-V2.jpg"
+                      image: "https://i.ibb.co/ch5qM3Hn/favicon-V2.jpg",
+                      rating: 4.5
                     },
                     {
                       name: "Tokyo Insider",
                       url: "https://tokyoinsider.com/",
                       desc: "TokyoInsider.com is an anime-focused website offering reviews, user ratings, and direct DDL downloads. It is self-hosted and has a large library. Has an outdated UI/UX",
                       tags: ["DDL", "Self Hosted", "Outdated UI"],
-                      image: "https://i.ibb.co/zHV9BFWq/favicon-V2-4.png"
+                      image: "https://i.ibb.co/zHV9BFWq/favicon-V2-4.png",
+                      rating: 4
                     },
 
                 ],
@@ -134,21 +139,24 @@ const animeData = {
                 url: 'https://github.com/jmir1/aniyomi',
                 desc: 'based  on mihon with anime support for Android.',
                 tags: ['Open Source', 'extensions', 'tracker'],
-                image: 'https://aniyomi.org/img/logo-128px.png'
+                image: 'https://aniyomi.org/img/logo-128px.png',
+                rating: 3.8
                },
               {
                 name: 'animiru',
                 url: 'https://github.com/Quickdesh/Animiru',
                 desc: 'fork of aniyomi without the manga features from Mihon',
                 tags: ['open source', 'tracker', 'extensions'],
-                image: 'https://aniyomi.org/forks/logo-animiru.webp'
+                image: 'https://aniyomi.org/forks/logo-animiru.webp',
+                rating: 3.5
                     },
               {
                 name: 'miru',
                 url: 'https://github.com/miru-project/miru-app',
                 desc: 'Supports anime, manga, and novels with open extensions, cross platforms(web,windows and android), and open source.',
                 tags: ['extensions ', 'Open Source', 'cross'],
-                image: 'https://raw.githubusercontent.com/miru-project/miru-app/dev/assets/icon/logo.png'
+                image: 'https://raw.githubusercontent.com/miru-project/miru-app/dev/assets/icon/logo.png',
+                rating: 2.5
                     },
                     {
                       name: "Miru",
@@ -156,7 +164,8 @@ const animeData = {
                       desc: "(miru.watch) Stream anime torrents, real-time with no waiting for downloads. Android app is paid, available for window, mac, linux and more.",
                       tags: ["Torrent", "Paid", "Multi platforms"],
                       image: "https://raw.githubusercontent.com/ThaUnknown/miru/refs/heads/master/common/public/logo_filled.ico",
-                      note: "Streams torrent, might arise problem with your ISP. USE MIGU FOR ANDROID"
+                      note: "Streams torrent, might arise problem with your ISP. USE MIGU FOR ANDROID",
+                      rating: 3.5
                       
                     },
                     {
@@ -165,7 +174,8 @@ const animeData = {
                     desc: "Stream anime torrents, real-time with no waiting for downloads. Migu is a fork of Miru (miru.watch) that focused on better mobile experience with added features. Available for windows,mac,linux,android and more ",
                     tags: ["Multi platfroms", "Torrent", "Free"],
                     image: "https://raw.githubusercontent.com/NoCrypt/migu/refs/tags/v5.6.2/common/public/logo_filled.ico",
-                    note: "Streams torrent, might arise problem with your ISP"
+                    note: "Streams torrent, might arise problem with your ISP",
+                    rating: 4
                     },
               {
                 name: 'Totoro',

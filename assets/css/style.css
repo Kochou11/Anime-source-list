@@ -1423,3 +1423,14 @@ transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   transform: scale(1.1);
   transition: transform 0.3s ease;
 }
+.faq a {
+  background: transparent;
+  color: var(--primary);
+  text-decoration: none;
+  
+}
+
+.faq {
+  font-size: 14;
+  margin-top: 15px;
+}
