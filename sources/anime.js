@@ -6,7 +6,7 @@ const animeData = {
           desc: 'Anime site with modern design and a huge library, including old series in good quality. It offers a reliable streaming server with hard-subbed anime and re-encodes for smaller sizes, featuring a mix of Web and Blu-ray releases. No ADs.',
           tags: ['Sub', 'Dub', 'Donghua', 'HD'],
           image: 'https://i.ibb.co/rRbSqyFs/favicon-V2.png',
-          note:"New site, missing anime can be requested through the site",
+          note:"Has both hard and soft subtitles",
           rating: 5
           
         },
