@@ -18,14 +18,7 @@ const animeData = {
           image: 'https://i.ibb.co/cKXKQpZH/favicon-V2-2.png',
           rating: 3.5
         },
-   {
-     name: "Hikari",
-     url: "https://hikari.gg/",
-     desc: "Anime streaming site with minimal UI and a vast, actively updated library featuring soft subtitles, multiple languages and multi-audio options. Almost no ADs on the site except the player.",
-     tags: ["HD", "Minimal AD", "Sub", "Dub"],
-     image: "https://cdn.discordapp.com/icons/1073723529557721118/7bf49235e19a3c2724aec290a2c42f72.webp?size=96",
-     rating: 4
-   },
+   //{ name: "Hikari",  url: "https://hikari.gg/",  desc: "Anime streaming site with minimal UI and a vast, actively updated library featuring soft subtitles, multiple languages and multi-audio options. Almost no ADs on the site except the player.",  tags: ["HD", "Minimal AD", "Sub", "Dub"],  image: "https://cdn.discordapp.com/icons/1073723529557721118/7bf49235e19a3c2724aec290a2c42f72.webp?size=96", rating: 4 },
           {
             name: 'Hianime',
             url: 'https://www.hianime.to',
