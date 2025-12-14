@@ -1449,3 +1449,18 @@ transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   color: var(--primary);
   font-size: 0.8rem;
 }
+
+/* Add animation for tags */
+@keyframes pulse-glow {
+    0% { box-shadow: 0 0 0 0 rgba(124, 93, 250, 0.4); }
+    70% { box-shadow: 0 0 0 6px rgba(124, 93, 250, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(124, 93, 250, 0); }
+}
+
+.tag.special {
+    background: rgba(124, 93, 250, 0.2);
+    color: var(--primary-hover);
+    border: 1px solid var(--primary);
+    animation: pulse-glow 2s infinite;
+    font-weight: 600;
+}

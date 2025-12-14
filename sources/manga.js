@@ -46,7 +46,7 @@ const mangaData = {
       name: 'Mihon',
       url: 'https://github.com/mihonapp/mihon',
       desc: 'Open-source manga reader for Android with extension support.',
-      tags: ['Android', 'Open Source'],
+      tags: ['Android', 'Open Source', 'Best'],
       image: 'https://mihon.app/favicon-32x32.png',
       rating: 5
                     },

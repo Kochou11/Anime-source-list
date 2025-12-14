@@ -4,7 +4,7 @@ const animeData = {
           name: 'Animekai',
           url: 'https://animekai.to/',
           desc: 'Anime site with modern design and a huge library, including old series in good quality. It offers a reliable streaming server with hard-subbed anime and re-encodes for smaller sizes, featuring a mix of Web and Blu-ray releases. No ADs.',
-          tags: ['Sub', 'Dub', 'Donghua', 'HD'],
+          tags: ['Sub', 'Dub', 'Donghua', 'HD', 'Top Pick'],
           image: 'https://i.ibb.co/rRbSqyFs/favicon-V2.png',
           note:"Has both hard and soft subtitles",
           rating: 5
@@ -23,7 +23,7 @@ const animeData = {
             name: 'Hianime',
             url: 'https://www.hianime.to',
             desc: 'A large anime library with soft subtitles, modern design, and reliable streams, but hindered by bad ads and broken subtitle typesetting.',
-            tags: ['Sub', 'Dub', 'HD', 'ADs', 'Pop Up'],
+            tags: ['HD', 'ADs', 'Pop Up', 'Popular'],
             image: 'https://cdn2.steamgriddb.com/icon/a0e7be097b3b5eb71d106dd32f2312ac.png',
             note: "Formerly: zoro, aniwatch",
             rating: 3.8
@@ -93,7 +93,7 @@ const animeData = {
                 name: 'Nyaa',
                 url: 'https://nyaa.si/',
                 desc: 'The largest anime torrent site with diverse content and high activity but closed registration and basic info.',
-                tags: ['Torrent', 'Trusted', 'Closed registration'],
+                tags: [ 'Trusted', 'Closed registration', 'Top Pick'],
                 image: 'https://nyaa.si/static/favicon.png',
                 note: "See thewiki.moe for torrenting guide.",
                 rating: 5
@@ -102,7 +102,7 @@ const animeData = {
                       name: "SubsPlease",
                       url: "https://subsplease.org/",
                       desc: "SubsPlease is a fan-driven group dedicated to providing timely English-subtitled anime releases, offering torrents, XDCC downloads, a release schedule, and RSS updates.",
-                      tags: ["XDCC", "Torrent","High quality" ],
+                      tags: ["XDCC", "Torrent","High quality", "Popular" ],
                       image: "https://i.ibb.co/ch5qM3Hn/favicon-V2.jpg",
                       rating: 4.5
                     },
