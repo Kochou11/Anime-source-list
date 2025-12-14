@@ -1434,3 +1434,18 @@ transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   font-size: 14;
   margin-top: 15px;
 }
+
+.last-updated {
+  margin-top: 0.75rem;
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  opacity: 0.85;
+}
+
+.last-updated i {
+  color: var(--primary);
+  font-size: 0.8rem;
+}

@@ -161,3 +161,15 @@ updateUI();
     
             });
         });
+
+
+  const lastUpdated = new Date(document.lastModified);
+
+  const formattedDate = lastUpdated.toLocaleDateString(undefined, {
+    year: "numeric",
+    month: "long",
+    day: "numeric"
+  });
+
+  document.getElementById("lastUpdatedText").textContent =
+    `Last updated: ${formattedDate}`;

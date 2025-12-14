@@ -1,13 +1,6 @@
 const mangaData = {
          reading: [
-   {
-  name: "ComicK",
-  desc: "Huge library with diverse languages, advanced manga info, detailed filters, and minimal image compression with a modern and practical UI. NSFW requires login.",
-  tags: ["Multiple Languages", "Good UI"],
-  url: "https://comick.io/home2",
-  image: "https://comick.io/_next/image?url=%2Fstatic%2Ficons%2Funicorn-64-christmas.png&w=144&q=75",
-  rating: 4.5
-},
+//   {  name: "ComicK",  desc: "Huge library with diverse languages, advanced manga info, detailed filters, and minimal image compression with a modern and practical UI. NSFW requires login.",  tags: ["Multiple Languages", "Good UI"],  url: "https://comick.io/home2",  image: "https://comick.io/_next/image?url=%2Fstatic%2Ficons%2Funicorn-64-christmas.png&w=144&q=75",  rating: 4.5},
    {
      name: "MangaPark",
      desc: "Mangapark is a free online manga platform offering a wide selection of titles updated regularly. Its intuitive design and organized content make it a favorite destination for manga enthusiasts.",
@@ -19,14 +12,7 @@ const mangaData = {
      
    },
    
-    {
-      name: 'Mangadex',
-      url: 'https://mangadex.org/',
-      desc: 'Community-driven manga reader with multiple language support.',
-      tags: ['Scanlation', 'Multiple Languages'],
-      image: 'https://mangadex.org/favicon.ico',
-      rating: 3.8
-                    },
+  //  {  name: 'Mangadex',  url: 'https://mangadex.org/',   desc: 'Community-driven manga reader with multiple language support.',    tags: ['Scanlation', 'Multiple Languages'],    image: 'https://mangadex.org/favicon.ico',  rating: 3.8   },
                     {
                       name: "Bato.to",
                       desc: "A platform offering both scanlated and official translations with a large, popular library and exclusive content, though its interface is somewhat outdated.",

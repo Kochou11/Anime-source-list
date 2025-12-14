@@ -21,7 +21,7 @@ const miscData = {
     url: "https://thewiki.moe/",
     desc: "Wiki for all things related to anime and more, ranging from easy to digest tutorials to full blown guides.",
     tags: ['Gudies', 'Torrenting'],
-    image: "https://cdn.discordapp.com/icons/974468300304171038/a_e77a7ac037d3aa867a1b31346f58d198.webp",
+    image: "https://i.ibb.co/KjFTRZNW/1765697577296.png",
     note: "One of the best guide to start torrenting."
     
   },

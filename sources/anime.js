@@ -70,21 +70,12 @@ const animeData = {
             url: 'https://www.miruro.tv ',
             desc: 'Scrapes multiple sources and languages with a modern interface and open source but has bad ads. ',
             tags: ['Scraper', 'Open source', 'Good UI', 'ADs'],
-            image: 'https://www.miruro.com/icon-512x512_tr.png',
+            image: 'https://i.ibb.co/QvV1DSjq/If8-BAERb07j-OVzs-AAAAASUVORK5-CYII.png',
             note: "Servers can be unreliable sometimes. frequent problems with bun and arc servers. ",
             rating: 3
           },
-          {
-            name: "Vumeto",
-            url: "https://vumeto.com/",
-            desc: "AD-free anime streaming platform with multiple source options and a modern UI. It features advanced subtitle and quality controls, personalized watchlists, and community rewards.",
-            tags: ["Scraper", "Modern UI", "AD free"],
-            image: "https://vumeto.com/favicon.ico",
-            note: "Still in beta",
-            rating: 3
-
-
-          },
+          
+         //{ name: "Vumeto", url: "https://vumeto.com/",   desc: "AD-free anime streaming platform with multiple source options and a modern UI. It features advanced subtitle and quality controls, personalized watchlists, and community rewards.",   tags: ["Scraper", "Modern UI", "AD free"],   image: "https://vumeto.com/favicon.ico",   note: "Still in beta",  rating: 3  },
              
            
           {
