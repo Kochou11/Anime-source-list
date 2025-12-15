@@ -109,7 +109,7 @@ function updateContent() {
                 <div class="card-meta">
                     <div class="card-tags">
                         ${item.tags.map(tag => {
-    const isSpecial = ['Popular', 'Best', 'Recommended', 'Hot', 'New', 'Top Pick'].includes(tag);
+    const isSpecial = ['Popular', 'Best', 'Recommended', 'Hot', 'New', 'Top Pick', 'Official', 'Licensed'].includes(tag);
     return `<span class="tag ${isSpecial ? 'special' : ''}">${tag}</span>`;
 }).join('')}
 
