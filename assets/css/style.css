@@ -1,6 +1,4 @@
-
-
-          :root {
+:root {
             --background: #0f1117;
   --card: #1a1b26;
   --primary: #7c5dfa;
@@ -411,38 +409,35 @@ flex-shrink: 0;
     }
 }
 
+
 .footer {
     position: relative;
     margin-top: 6rem;
-    background-color: var(--card);
-    overflow: hidden;
+    padding-top: 4rem;
+    border-top: 1px solid var(--border);
 }
 
-.footer-waves {
+.footer::before {
+    content: '';
     position: absolute;
-    top: -100px;
-    left: 0;
-    width: 100%;
-    height: 100px;
-    transform: rotate(180deg);
-}
-
-.footer-waves svg {
-    position: absolute;
-    width: 100%;
-    height: 100%;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 4px;
+    background: var(--gradient-primary);
+    border-radius: 2px;
 }
 
 .footer-content {
-    position: relative;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 3rem 2rem;
+    padding: 0 2rem 3rem;
 }
 
 .footer-main {
     display: grid;
-    grid-template-columns: 1.5fr 2fr;
+    grid-template-columns: repeat(3, 1fr);
     gap: 4rem;
     margin-bottom: 3rem;
 }
@@ -451,9 +446,10 @@ flex-shrink: 0;
     font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: 1rem;
-    background: linear-gradient(45deg, var(--primary), #4ade80);
+    background: var(--gradient-primary);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 .footer-brand p {
@@ -468,33 +464,32 @@ flex-shrink: 0;
 }
 
 .social-links a {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 40px;
-    height: 40px;
+    width: 44px;
+    height: 44px;
     border-radius: 50%;
-    background: var(--background);
+    background: var(--card);
     color: var(--text);
+    text-decoration: none;
     transition: all 0.3s ease;
+    border: 1px solid var(--border);
 }
 
 .social-links a:hover {
     background: var(--primary);
     transform: translateY(-3px);
-}
-
-.footer-links {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
+    box-shadow: 0 4px 12px var(--primary-shadow);
 }
 
 .footer-section h3 {
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 700;
     margin-bottom: 1.5rem;
     color: var(--text);
+    text-transform: uppercase;
+    letter-spacing: 1px;
     position: relative;
     display: inline-block;
     padding-bottom: 0.5rem;
@@ -511,7 +506,6 @@ flex-shrink: 0;
     border-radius: 1px;
 }
 
-
 .footer-section ul {
     list-style: none;
     padding: 0;
@@ -524,25 +518,22 @@ flex-shrink: 0;
 .footer-section ul li a {
     color: var(--text-secondary);
     text-decoration: none;
-    transition: all 0.2s ease;
+    transition: all 0.3s ease;
+    display: inline-block;
     font-size: 0.9rem;
 }
 
 .footer-section ul li a:hover {
     color: var(--primary);
-    padding-left: 0.5rem;
+    transform: translateX(5px);
 }
 
 .footer-bottom {
-    padding-top: -3rem;
-    margin-top: 2rem;
-    border-top: 1px solid var(--border);
     text-align: center;
+    padding: 2rem 0;
+    border-top: 1px solid var(--border);
 }
-.footer-bottom p {
-  padding-top: 1rem;
-  margin-top: -1rem;
-}
+
 .disclaimer {
     color: var(--text-secondary);
     font-size: 0.85rem;
@@ -553,13 +544,13 @@ flex-shrink: 0;
 .copyright {
     color: var(--text-secondary);
     font-size: 0.9rem;
+    font-weight: 500;
 }
-
 
 @media (max-width: 768px) {
     .footer-main {
         grid-template-columns: 1fr;
-        gap: 1rem;
+        gap: 2rem;
     }
     
     .footer-brand {
@@ -570,22 +561,28 @@ flex-shrink: 0;
         justify-content: center;
     }
     
-    .footer-links {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 2rem;
+    .footer-section h3::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .footer-section ul li a:hover {
+        transform: translateX(0);
     }
 }
 
 @media (max-width: 480px) {
-    .footer-links {
-        grid-template-columns: 1fr;
-        text-align: center;
+    .footer-content {
+        padding: 0 1rem 2rem;
     }
     
-    .footer-section ul li a:hover {
-        padding-left: 0;
+    .footer-main {
+        gap: 2rem;
     }
 }
+
+
+
 .modal-overlay {
   display: none;
   position: fixed;
@@ -687,15 +684,6 @@ flex-shrink: 0;
   transition: 0s;
 }
 
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
 
 @keyframes modalEnter {
   from {
