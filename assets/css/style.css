@@ -1447,7 +1447,7 @@ transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
 .tag.special {
     background: rgba(124, 93, 250, 0.2);
-    color: var(--primary-hover);
+    color: var(--primary);
     border: 1px solid var(--primary);
     animation: pulse-glow 2s infinite;
     font-weight: 600;
