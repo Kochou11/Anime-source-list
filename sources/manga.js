@@ -1,7 +1,15 @@
 const mangaData = {
          reading: [
 //   {  name: "ComicK",  desc: "Huge library with diverse languages, advanced manga info, detailed filters, and minimal image compression with a modern and practical UI. NSFW requires login.",  tags: ["Multiple Languages", "Good UI"],  url: "https://comick.io/home2",  image: "https://comick.io/_next/image?url=%2Fstatic%2Ficons%2Funicorn-64-christmas.png&w=144&q=75",  rating: 4.5},
-   {
+  {
+    name: 'AnimeAct',
+    url: 'https://animeact.com',
+    desc: 'Manga reading platform with Indonesian translations, featuring manga, manhwa and manhua across multiple genres.',
+    tags: ['Manga', 'Manhwa', 'Manhua', 'Indonesian'],
+    image: 'https://i.postimg.cc/CMP9yVbG/animeact.jpg',
+    rating: 4
+},
+                  {
      name: "MangaPark",
      desc: "Mangapark is a free online manga platform offering a wide selection of titles updated regularly. Its intuitive design and organized content make it a favorite destination for manga enthusiasts.",
      tags: ["Big library", "Multiple Languages"],

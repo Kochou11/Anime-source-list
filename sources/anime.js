@@ -1,5 +1,13 @@
 const animeData = {
     streaming: [
+      {
+            name: 'AnimeAct',
+            url: 'https://animeact.com',
+            desc: 'Streaming Anime and baca manga subtittle indonesia platform featuring anime, manga, manhwa and manhua across multiple genres.',
+            tags: ['Anime', 'Manga'],
+            image: 'https://i.postimg.cc/CMP9yVbG/animeact.jpg',
+            rating: 4
+        },
               {
           name: 'Animekai',
           url: 'https://animekai.to/',
