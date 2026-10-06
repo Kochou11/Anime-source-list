@@ -27,6 +27,13 @@ const forumData = {
      desc: "Discussion forum primarily focusing on visual novels along with other sections on anime and manga.",
      tags: ["Discussion", "Community"],
      image: 'https://fuwanovel.moe/wp-content/uploads/2016/06/cropped-Logo-Shield-Words-32x32.png'
-   }
+   },
+  {
+    name: 'Kaidomi',
+    url: 'https://kaidomi.com/',
+    desc: 'Independent anime and manga fandom platform with title discovery, community posts and events. Account required to participate; web and iPhone app.',
+    tags: ['Community', 'Anime', 'Manga'],
+    image: 'https://kaidomi.com/brand/favicon/apple-touch-icon.png'
+  }
                 ]
 };
