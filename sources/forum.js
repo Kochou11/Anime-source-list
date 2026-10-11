@@ -30,7 +30,7 @@ const forumData = {
    },
   {
     name: 'Kaidomi',
-    url: 'https://kaidomi.com/',
+    url: 'https://kaidomi.com/?utm_source=nihonnav&utm_medium=directory&utm_campaign=g1-nihonnav-1006',
     desc: 'Independent anime and manga fandom platform with title discovery, community posts and events. Account required to participate; web and iPhone app.',
     tags: ['Community', 'Anime', 'Manga'],
     image: 'https://kaidomi.com/brand/favicon/apple-touch-icon.png'
