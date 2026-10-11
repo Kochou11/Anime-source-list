@@ -34,6 +34,13 @@ const forumData = {
     desc: 'Independent anime and manga fandom platform with title discovery, community posts and events. Account required to participate; web and iPhone app.',
     tags: ['Community', 'Anime', 'Manga'],
     image: 'https://kaidomi.com/brand/favicon/apple-touch-icon.png'
+  },
+  {
+    name: 'FictionCom',
+    url: 'https://fictioncom.pages.dev/',
+    desc: 'Free community for anime and manga fans to share theories, discuss episodes and chapters with spoiler labels, and post fan art, videos and stories. Browsing works without an account; joining is free.',
+    tags: ['Community', 'Anime', 'Manga'],
+    image: 'https://fictioncom.pages.dev/apple-touch-icon.png'
   }
                 ]
 };
