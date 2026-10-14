@@ -51,6 +51,13 @@ const mangaData = {
   //manga apps resources 
   apps: [
     {
+      name: '만화 번역기 AI',
+      url: 'https://www.mangatranslate.com/ko/ai-manga-translator/',
+      desc: "만화 번역기 AI는 Ficory LLC의 기업용 만화 리더입니다. 제품은 100개 이상 언어와 지원하는 모든 번역 언어를 제공합니다. 개인은 일괄·맞춤 번역을 수행합니다. 스튜디오는 완전한 온라인 Photoshop 방식 편집기를 사용합니다. 사용자는 API를 개인 워크플로에 연결합니다. 무료 사용량과 유료 옵션이 있습니다.",
+      tags: ['Web', 'Korean', 'Translation', 'Freemium', 'API'],
+      image: 'https://www.mangatranslate.com/favicon.ico'
+    },
+    {
       name: 'Mihon',
       url: 'https://github.com/mihonapp/mihon',
       desc: 'Open-source manga reader for Android with extension support.',
