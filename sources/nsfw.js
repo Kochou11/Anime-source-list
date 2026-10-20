@@ -49,6 +49,13 @@ streaming: [
   tags: ["Manhwa", "Medium library"], 
   image: "https://i.ibb.co/Lz5WyCxD/favicon-V2-1.png"
   
+},
+{
+  name: "HentaiRead",
+  url: "https://hentairead.ws/",
+  desc: "English-language hentai manga, doujinshi, and adult comics reader with advanced search, bookmarks, reading history, and mobile-friendly reading. Contains display ads.",
+  tags: ["Hentai", "Doujinshi", "Manga", "English"],
+  image: "https://hentairead.ws/favicon.ico"
 }
 ],
   // nsfw database resources 
